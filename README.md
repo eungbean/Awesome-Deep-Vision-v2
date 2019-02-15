@@ -12,11 +12,11 @@ I would like to inform you that I have rewritten the latest papers and important
 1. Fork & Star This Repo.
 2. After reading paper, modify checkbox as checked.
 
-* [ ] Unread Awesome Paper (CONF 2019), Someone Gineus [[Paper]]()
-* [x] Read Awesome Paper (CONF 2019), Someone Gineus [[Paper]]()
+* [ ] Unread Awesome Paper (CONF 2019), Someone Gineus [[Paper]](#)
+* [x] Read Awesome Paper (CONF 2019), Someone Gineus [[Paper]](#)
 ```markdown
-* [ ] Unread Awesome Paper (CONF 2019), Someone Gineus [[Paper]]()
-* [x] Read Awesome Paper (CONF 2019), Someone Gineus [[Paper]]()
+* [ ] Unread Awesome Paper (CONF 2019), Someone Gineus [[Paper]](#)
+* [x] Read Awesome Paper (CONF 2019), Someone Gineus [[Paper]](#)
 ```
 
 3. If you want to display the day you read the paper, add a badge next to the list.\
