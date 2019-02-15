@@ -8,7 +8,7 @@ A curated list of deep learning resources for computer vision, inspired by [awes
 I am taking this list as a milestone for studying computer vision fields.
 I would like to inform you that I have rewritten the latest papers and important papers.
 
-## References
+#### References
 - [Awesome Deep Learning](https://github.com/terryum/awesome-deep-learning-papers) by [Terry Um](https://www.facebook.com/terryum.io/)
 - [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision) by [Jiwon Kim](https://github.com/kjw0612), [Heesoo Myeong](https://github.com/hmyeong), [Myungsub Choi](https://github.com/myungsub), [Jung Kwon Lee](https://github.com/deruci), [Taeksoo Kim](https://github.com/jazzsaxmafia)
 - [awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision) by [Jia-Bin Huang](http://www.jiabinhuang.com)
