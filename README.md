@@ -244,7 +244,6 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
 * [ ] Colorful Image Colorization (ECCV 2016), Richard Zhang [[Paper]](http://arxiv.org/pdf/1603.08511.pdf), [[Code]](https://github.com/richzhang/colorization)
 
 - Stereo matching
-  * [ ]
   * [ ] Adaptive Support-Weight (TPAMI 2006), Kuk-Jin Yoon [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.892.8572&rep=rep1&type=pdf)
   * [ ] Fast Cost-Volume Filtering (2012), Christoph Rhemann [[Paper]](http://wwwpub.zih.tu-dresden.de/~cvweb/publications/papers/2012/FastCost-VolumeFiltering.pdf)
 
