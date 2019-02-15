@@ -253,8 +253,8 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
 * [ ] Compression Artifacts Reduction (arXiv:1504.06993), Chao Dong [[Paper]](http://arxiv.org/pdf/1504.06993)
 
 - Blur Removal
-  * [ ] Learning to Deblur, (arXiv:1406.7444), Christian J. Schuler [[Paper]](http://arxiv.org/pdf/1406.7444.pdf)
-  * [ ] Learning a Convolutional Neural Network for Non-uniform Motion Blur Removal, (CVPR 2015), Jian Sun [[Paper]](http://arxiv.org/pdf/1503.00593)
+  * [ ] Learning to Deblur (arXiv:1406.7444), Christian J. Schuler [[Paper]](http://arxiv.org/pdf/1406.7444.pdf)
+  * [ ] Learning a Convolutional Neural Network for Non-uniform Motion Blur Removal (CVPR 2015), Jian Sun [[Paper]](http://arxiv.org/pdf/1503.00593)
 * [ ] Image Deconvolution (NIPS 2014), Li Xu [[Web]](http://lxu.me/projects/dcnn/) [[Paper]](http://lxu.me/mypapers/dcnn_nips14.pdf)
 * [ ] Deep Edge-Aware Filter (ICMR 2015), Li Xu [[Paper]](http://jmlr.org/proceedings/papers/v37/xub15.pdf)
 * [ ] Colorful Image Colorization (ECCV 2016), [[Paper]](https://arxiv.org/abs/1603.08511) [[Project]](http://richzhang.github.io/colorization/) [[Blog-Ryan Dahl]](http://tinyclouds.org/colorize/)
