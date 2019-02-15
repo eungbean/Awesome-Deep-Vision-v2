@@ -10,7 +10,7 @@ I would like to inform you that I have rewritten the latest papers and important
 
 #### Useage
 1. Fork & Star This Repo.
-2. If you read paper, modify checkbox as checked.
+2. After reading paper, modify checkbox as checked.
 
 * [ ] Unread Awesome Paper (CONF 2019), Someone Gineus [[Paper]]()
 * [x] Read Awesome Paper (CONF 2019), Someone Gineus [[Paper]]()
@@ -19,7 +19,8 @@ I would like to inform you that I have rewritten the latest papers and important
 * [x] Read Awesome Paper (CONF 2019), Someone Gineus [[Paper]]()
 ```
 
-3. If you want to record day of reading, put badge next to paper.
+3. If you want to display the day you read the paper, add a badge next to the list.\
+I'll give you some useful badges.\
 Just Copy-Paste-Modify!
 
 ![](https://img.shields.io/badge/READ-01--01--2019-lightgrey.svg)
@@ -32,7 +33,7 @@ Just Copy-Paste-Modify!
 ![](https://img.shields.io/badge/-Important-red.svg)
 ```
 
-You can make your own badge [Here](https://shields.io/)
+You can make your own badge [Here](https://shields.io/).
 
 4. Enjoy!
 
