@@ -25,7 +25,7 @@ I would like to inform you that I have rewritten the latest papers and important
   - [Books](#books)
   - [Videos](#videos)
   - [Papers](#papers)
-    - [Image processing](#image-processing)
+    - [Computational Photography](#computational-photography)
       - [Filtering](#filtering)
   - [ImageNet Classification](#imagenet-classification)
   - [Object Detection](#object-detection)
@@ -126,9 +126,13 @@ I would like to inform you that I have rewritten the latest papers and important
 
 
 ## Papers
-### Image processing
+### Computational Photography
 * [ ] SIFT (IJCV 2004), DG Lowe [[Paper]](https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf)
 * [ ] HOG (CVPR 2005) N Dalal [[Paper]](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)
+* [ ] Recovering High Dynamic Range Radiance Maps from Photographs (SIGGRAPH 1997), PE Debevec [[Paper]](http://www.pauldebevec.com/Research/HDR/debevec-siggraph97.pdf)
+* [ ] Poisson Image Editing (SIGGRAPH 2003), P Pérez [[Paper]](http://www.irisa.fr/vista/Papers/2003_siggraph_perez.pdf)
+* [ ] Single Image Haze Removal Using Dark Channel Prior (TPAMI 2011), Kaiming He [[Paper]](https://www.robots.ox.ac.uk/~vgg/rg/papers/hazeremoval.pdf)
+* [ ] Digital Photography with Flash and No-Flash Image Pairs (2004), Georg Petschnigg [[Paper]](http://hhoppe.com/flash.pdf)
 
 #### Filtering
 * [x] Bilateral Filter (1998), C Tomasi [[Paper]](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/10spring/lectures/handouts/lec14_bilateral_4up.pdf)
@@ -138,7 +142,7 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
 * [x] WLS Filter (SIGGRAPH 2008), Z Farbman [[Paper]](http://evasion.imag.fr/Enseignement/cours/2009/ProjetImage/multiscale/multiscale.pdf) [[Projects]](http://www.cs.huji.ac.il/~danix/epd/)
 * [ ] Deep Joint Filtering (ECCV 2016), Y Li [[Paper]](http://faculty.ucmerced.edu/mhyang/papers/eccv16_joint_filter.pdf)
 * [ ] Deep Multi-scale Convolutional Neural Network for Dynamic Scene Deblurring (arXiv:1612.02177), Seungjun Nah [[Paper]](https://arxiv.org/abs/1612.02177)
-
+)
 
 ### ImageNet Classification
 ![classification](https://cloud.githubusercontent.com/assets/5226447/8451949/327b9566-2022-11e5-8b34-53b4a64c13ad.PNG)
@@ -174,6 +178,7 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
 * [ ] R-FCN (arXiv:1605.06409), Jifeng Dai [[Paper](https://arxiv.org/abs/1605.06409)] [[Code](https://github.com/daijifeng001/R-FCN)]
 * [ ] SSD: Single Shot MultiBox Detector (arXiv:1512.05325v2) [[Paper]](https://arxiv.org/pdf/1512.02325v2.pdf) [[Code](https://github.com/weiliu89/caffe/tree/ssd)]
 * [ ] Speed/accuracy trade-offs for modern convolutional object detectors (arXiv:1611.10012), Jonarhan NHuang [[Paper](https://arxiv.org/pdf/1611.10012v1.pdf)]
+* [ ] Multispectral Deep Neural Networks for Pedestrian Detection (arXiv:1611.02644), J Liu [[Paper]](https://arxiv.org/abs/1611.02644)
 
 ### Video Classification
 * [ ] Delving Deeper into Convolutional Networks for Learning Video Representations (ICLR 2016), Nicolas Ballas [[Paper](http://arxiv.org/pdf/1511.06432v4.pdf)]
@@ -273,6 +278,7 @@ and Fully Connected CRFs (arXiv:1606.00915v2), Liang-Chieh Chen [[Paper]](https:
 * [ ] Segment-Phrase Table for Semantic Segmentation, Visual Entailment and Paraphrasing, (ICCV 2015), Hamid Izadinia [[Paper](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Izadinia_Segment-Phrase_Table_for_ICCV_2015_paper.pdf)]
 * [ ] Pusing the Boundaries of Boundary Detection Using deep Learning (ICLR 2016), Iasonas Kokkinos [[Paper](http://arxiv.org/pdf/1511.07386v2.pdf)]
 * [ ] Weakly supervised graph based semantic segmentation by learning communities of image-parts (ICCV 2015), Niloufar Pourian [[Paper](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Pourian_Weakly_Supervised_Graph_ICCV_2015_paper.pdf)]
+* [ ] Rich feature hierarchies for accurate object detection and semantic segmentation [CVPR 2014], R Girshick [[Web]](https://github.com/rbgirshick/rcnn)
 
 ### Visual Attention and Saliency
 ![saliency](https://cloud.githubusercontent.com/assets/5226447/8492362/7ec65b88-2183-11e5-978f-017e45ddba32.png)
@@ -461,7 +467,6 @@ using a Multi-Scale Deep Network (NIPS 2014), David Eigen [[Paper]](https://pape
         * Understanding and Visualizing
           * Source code for "Understanding Deep Image Representations by Inverting Them," CVPR, 2015. [[Web]](https://github.com/aravindhm/deep-goggle)
         * Semantic Segmentation
-          * Source code for the paper "Rich feature hierarchies for accurate object detection and semantic segmentation," CVPR, 2014. [[Web]](https://github.com/rbgirshick/rcnn)
           * Source code for the paper "Fully Convolutional Networks for Semantic Segmentation," CVPR, 2015. [[Web]](https://github.com/longjon/caffe/tree/future)
         * Super-Resolution
           * Image Super-Resolution for Anime-Style-Art [[Web]](https://github.com/nagadomi/waifu2x)
