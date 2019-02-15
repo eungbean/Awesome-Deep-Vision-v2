@@ -273,7 +273,7 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
 (from Jifeng Dai, Kaiming He, Jian Sun, BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation, arXiv:1503.01640.)
 
 #### PASCAL VOC2012 Challenge Leaderboard (15 Feb. 2019)
-![VOC2012_top_rankings](/images/pascal.png)
+![VOC2012_top_rankings](/images/leaderboards2019.png)
   (from PASCAL VOC2012 [leaderboards](http://host.robots.ox.ac.uk:8080/leaderboard/displaylb.php?challengeid=11&compid=6))
 
 * [ ] DeepLab: Semantic Image Segmentation with
