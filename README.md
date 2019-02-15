@@ -3,7 +3,7 @@
 
 Maintainers - [Eungbean Lee](https://eungbean.github.io)
 
-A curated list of deep learning resources for computer vision, inspired by [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision) - Not Maintained after 2017
+A curated list of deep learning resources for computer vision, inspired by [awesome-deep-vision](https://github.com/kjw0612/awesome-deep-vision) - It is no longer maintained since 2017.
 
 I am taking this list as a milestone for studying computer vision fields.
 I would like to inform you that I have rewritten the latest papers and important papers.
