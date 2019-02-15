@@ -8,6 +8,32 @@ A curated list of deep learning resources for computer vision, inspired by [awes
 I am taking this list as a milestone for studying computer vision fields.
 I would like to inform you that I have rewritten the latest papers and important papers.
 
+#### Useage
+1. Fork & Star This Repo.
+2. If you read paper, modify checkbox as checked.
+
+```markdown
+* [ ] Unread Awesome Paper (CONF 2019), Someone Gineus [[Paper]]()
+* [x] Read Awesome Paper (CONF 2019), Someone Gineus [[Paper]]()
+```
+
+3. If you want to record day of reading, put badge next to paper.
+Just Copy-Paste-Modify!
+
+![](https://img.shields.io/badge/READ-01--01--2019-lightgrey.svg)
+```markdown
+![](https://img.shields.io/badge/READ-01--01--2019-lightgrey.svg)
+```
+
+![](https://img.shields.io/badge/-Important-red.svg)
+```markdown
+![](https://img.shields.io/badge/-Important-red.svg)
+```
+
+You can make your own badge [Here](https://shields.io/)
+
+4. Enjoy!
+
 #### References
 - [Awesome Deep Learning](https://github.com/terryum/awesome-deep-learning-papers) by [Terry Um](https://www.facebook.com/terryum.io/)
 - [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision) by [Jiwon Kim](https://github.com/kjw0612), [Heesoo Myeong](https://github.com/hmyeong), [Myungsub Choi](https://github.com/myungsub), [Jung Kwon Lee](https://github.com/deruci), [Taeksoo Kim](https://github.com/jazzsaxmafia)
@@ -135,11 +161,11 @@ I would like to inform you that I have rewritten the latest papers and important
 * [ ] Digital Photography with Flash and No-Flash Image Pairs (2004), Georg Petschnigg [[Paper]](http://hhoppe.com/flash.pdf)
 
 #### Filtering
-* [x] Bilateral Filter (1998), C Tomasi [[Paper]](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/10spring/lectures/handouts/lec14_bilateral_4up.pdf)
-* [x] Guided Filter (ECCV 2010), Kaiming He [[Paper]](http://kaiminghe.com/publications/eccv10guidedfilter.pdf) [[Project]](http://kaiminghe.com/eccv10/)
-* [x] Rolling Guidance Filter (ECCV 2014), Q Zhang [[Paper]](Rolling Guidance Filter
+* [] Bilateral Filter (1998), C Tomasi [[Paper]](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/10spring/lectures/handouts/lec14_bilateral_4up.pdf)
+* [] Guided Filter (ECCV 2010), Kaiming He [[Paper]](http://kaiminghe.com/publications/eccv10guidedfilter.pdf) [[Project]](http://kaiminghe.com/eccv10/)
+* [] Rolling Guidance Filter (ECCV 2014), Q Zhang [[Paper]](Rolling Guidance Filter
 https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](http://www.cse.cuhk.edu.hk/leojia/projects/rollguidance/)
-* [x] WLS Filter (SIGGRAPH 2008), Z Farbman [[Paper]](http://evasion.imag.fr/Enseignement/cours/2009/ProjetImage/multiscale/multiscale.pdf) [[Projects]](http://www.cs.huji.ac.il/~danix/epd/)
+* [] WLS Filter (SIGGRAPH 2008), Z Farbman [[Paper]](http://evasion.imag.fr/Enseignement/cours/2009/ProjetImage/multiscale/multiscale.pdf) [[Projects]](http://www.cs.huji.ac.il/~danix/epd/)
 * [ ] Deep Joint Filtering (ECCV 2016), Y Li [[Paper]](http://faculty.ucmerced.edu/mhyang/papers/eccv16_joint_filter.pdf)
 * [ ] Deep Multi-scale Convolutional Neural Network for Dynamic Scene Deblurring (arXiv:1612.02177), Seungjun Nah [[Paper]](https://arxiv.org/abs/1612.02177)
 )
