@@ -130,11 +130,11 @@ I would like to inform you that I have rewritten the latest papers and important
 * [ ] HOG (CVPR 2005) N Dalal [[Paper]](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)
 
 #### Filtering
-* [v] Bilateral Filter (1998), C Tomasi [[Paper]](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/10spring/lectures/handouts/lec14_bilateral_4up.pdf)
-* [v] Guided Filter (ECCV 2010), Kaiming He [[Paper]](http://kaiminghe.com/publications/eccv10guidedfilter.pdf) [[Project]](http://kaiminghe.com/eccv10/)
-* [v] Rolling Guidance Filter (ECCV 2014), Q Zhang [[Paper]](Rolling Guidance Filter
+* [x] Bilateral Filter (1998), C Tomasi [[Paper]](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/10spring/lectures/handouts/lec14_bilateral_4up.pdf)
+* [x] Guided Filter (ECCV 2010), Kaiming He [[Paper]](http://kaiminghe.com/publications/eccv10guidedfilter.pdf) [[Project]](http://kaiminghe.com/eccv10/)
+* [x] Rolling Guidance Filter (ECCV 2014), Q Zhang [[Paper]](Rolling Guidance Filter
 https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](http://www.cse.cuhk.edu.hk/leojia/projects/rollguidance/)
-* [v] WLS Filter (SIGGRAPH 2008), Z Farbman [[Paper]](http://evasion.imag.fr/Enseignement/cours/2009/ProjetImage/multiscale/multiscale.pdf) [[Projects]](http://www.cs.huji.ac.il/~danix/epd/)
+* [x] WLS Filter (SIGGRAPH 2008), Z Farbman [[Paper]](http://evasion.imag.fr/Enseignement/cours/2009/ProjetImage/multiscale/multiscale.pdf) [[Projects]](http://www.cs.huji.ac.il/~danix/epd/)
 
 ### ImageNet Classification
 ![classification](https://cloud.githubusercontent.com/assets/5226447/8451949/327b9566-2022-11e5-8b34-53b4a64c13ad.PNG)
