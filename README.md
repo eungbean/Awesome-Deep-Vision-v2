@@ -24,7 +24,9 @@ I would like to inform you that I have rewritten the latest papers and important
   - [Personal Blogs](#personal-blogs)
   - [Books](#books)
   - [Videos](#videos)
-- [Papers](#papers)
+  - [Papers](#papers)
+    - [Image processing](#image-processing)
+      - [Filtering](#filtering)
   - [ImageNet Classification](#imagenet-classification)
   - [Object Detection](#object-detection)
   - [Object Tracking](#object-tracking)
@@ -124,8 +126,8 @@ I would like to inform you that I have rewritten the latest papers and important
 
 ## Papers
 ### Image processing
-* [] SIFT (IJCV 2004), DG Lowe [[Paper]](https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf)
-* [] HOG (CVPR 2005) N Dalal [[Paper]](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)
+* [-] SIFT (IJCV 2004), DG Lowe [[Paper]](https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf)
+* [-] HOG (CVPR 2005) N Dalal [[Paper]](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)
 
 #### Filtering
 * [v] Bilateral Filter (1998), C Tomasi [[Paper]](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/10spring/lectures/handouts/lec14_bilateral_4up.pdf)
@@ -138,155 +140,155 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
 ![classification](https://cloud.githubusercontent.com/assets/5226447/8451949/327b9566-2022-11e5-8b34-53b4a64c13ad.PNG)
 (from Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton, ImageNet Classification with Deep Convolutional Neural Networks, NIPS, 2012.)
 
-* [] Deep Residual Learning (arXiv:1512.03385), Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun [[Paper](http://arxiv.org/pdf/1512.03385v1.pdf)][[Slide](http://image-net.org/challenges/talks/ilsvrc2015_deep_residual_learning_kaiminghe.pdf)]
-* [] PReLu/Weight Initialization (arXiv:1502.01852), Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun [[Paper]](http://arxiv.org/pdf/1502.01852)
-* [] Batch Normalization (arXiv:1502.03167), Sergey Ioffe, Christian Szegedy [[Paper]](http://arxiv.org/pdf/1502.03167)
-* [] GoogLeNet (CVPR 2015), Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent Vanhoucke, Andrew Rabinovich [[Paper]](http://arxiv.org/pdf/1409.4842)
-* [] VGG-Net (ICLR 2015), Karen Simonyan and Andrew Zisserman [[Web]](http://www.robots.ox.ac.uk/~vgg/research/very_deep/) [[Paper]](http://arxiv.org/pdf/1409.1556)
-* [] AlexNet (NIPS, 2012) Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton, [[Paper]](http://papers.nips.cc/book/advances-in-neural-information-processing-systems-25-2012)
+* [-] Deep Residual Learning (arXiv:1512.03385), Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun [[Paper](http://arxiv.org/pdf/1512.03385v1.pdf)][[Slide](http://image-net.org/challenges/talks/ilsvrc2015_deep_residual_learning_kaiminghe.pdf)]
+* [-] PReLu/Weight Initialization (arXiv:1502.01852), Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun [[Paper]](http://arxiv.org/pdf/1502.01852)
+* [-] Batch Normalization (arXiv:1502.03167), Sergey Ioffe, Christian Szegedy [[Paper]](http://arxiv.org/pdf/1502.03167)
+* [-] GoogLeNet (CVPR 2015), Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent Vanhoucke, Andrew Rabinovich [[Paper]](http://arxiv.org/pdf/1409.4842)
+* [-] VGG-Net (ICLR 2015), Karen Simonyan and Andrew Zisserman [[Web]](http://www.robots.ox.ac.uk/~vgg/research/very_deep/) [[Paper]](http://arxiv.org/pdf/1409.1556)
+* [-] AlexNet (NIPS, 2012) Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton, [[Paper]](http://papers.nips.cc/book/advances-in-neural-information-processing-systems-25-2012)
 
 ### Object Detection
 ![object_detection](https://cloud.githubusercontent.com/assets/5226447/8452063/f76ba500-2022-11e5-8db1-2cd5d490e3b3.PNG)
 (from Shaoqing Ren, Kaiming He, Ross Girshick, Jian Sun, Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, arXiv:1506.01497.)
 
-* [] PVANET (arXiv:1608.08021), Kye-Hyeon Kim [[Paper]](https://arxiv.org/pdf/1608.08021) [[Code]](https://github.com/sanghoon/pva-faster-rcnn)
-* [] OverFeat (ICLR 2014), P Sermanet [[Paper]](http://arxiv.org/pdf/1312.6229.pdf)
-* [] R-CNN, (CVPR 2014), Ross Girshick [[Paper-CVPR14]](http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.pdf) [[Paper-arXiv14]](http://arxiv.org/pdf/1311.2524)
-* [] SPP: Spatial Pyramid Pooling (ECCV 2014), Kaiming He [[Paper]](http://arxiv.org/pdf/1406.4729)
-* [] Fast R-CNN, (arXiv:1504.08083), Ross Girshick [[Paper]](http://arxiv.org/pdf/1504.08083)
-* [] Faster R-CNN, (arXiv:1506.01497), Shaoqing Ren [[Paper]](http://arxiv.org/pdf/1506.01497)
-* [] R-CNN minus R, (arXiv:1506.06981), Karel Lenc [[Paper]](http://arxiv.org/pdf/1506.06981)
-* [] End-to-end people detection in crowded scenes (arXiv:1506.04878), Russell Stewart, [[Paper]](http://arxiv.org/abs/1506.04878)
-* [] YOLO: Real-Time Object Detection, Joseph Redmon [[Project]](https://pjreddie.com/yolo/) [[C Code]](https://github.com/pjreddie/darknet), [[TF Code]](https://github.com/thtrieu/darkflow)
-  * [] You Only Look Once: Unified, Real-Time Object Detection (arXiv:1506.02640), Joseph Redmon [[Paper]](https://arxiv.org/abs/1506.02640)
-  * [] YOLO v2 (arXiv:1612.08242), Joseph Redmon [[Paper]](https://arxiv.org/abs/1612.08242)
-  * [] YOLOv3: An Incremental Improvement (1804.02767), Joseph Redmon [[Paper]](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
+* [-] PVANET (arXiv:1608.08021), Kye-Hyeon Kim [[Paper]](https://arxiv.org/pdf/1608.08021) [[Code]](https://github.com/sanghoon/pva-faster-rcnn)
+* [-] OverFeat (ICLR 2014), P Sermanet [[Paper]](http://arxiv.org/pdf/1312.6229.pdf)
+* [-] R-CNN, (CVPR 2014), Ross Girshick [[Paper-CVPR14]](http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.pdf) [[Paper-arXiv14]](http://arxiv.org/pdf/1311.2524)
+* [-] SPP: Spatial Pyramid Pooling (ECCV 2014), Kaiming He [[Paper]](http://arxiv.org/pdf/1406.4729)
+* [-] Fast R-CNN, (arXiv:1504.08083), Ross Girshick [[Paper]](http://arxiv.org/pdf/1504.08083)
+* [-] Faster R-CNN, (arXiv:1506.01497), Shaoqing Ren [[Paper]](http://arxiv.org/pdf/1506.01497)
+* [-] R-CNN minus R, (arXiv:1506.06981), Karel Lenc [[Paper]](http://arxiv.org/pdf/1506.06981)
+* [-] End-to-end people detection in crowded scenes (arXiv:1506.04878), Russell Stewart, [[Paper]](http://arxiv.org/abs/1506.04878)
+* [-] YOLO: Real-Time Object Detection, Joseph Redmon [[Project]](https://pjreddie.com/yolo/) [[C Code]](https://github.com/pjreddie/darknet), [[TF Code]](https://github.com/thtrieu/darkflow)
+  * [-] You Only Look Once: Unified, Real-Time Object Detection (arXiv:1506.02640), Joseph Redmon [[Paper]](https://arxiv.org/abs/1506.02640)
+  * [-] YOLO v2 (arXiv:1612.08242), Joseph Redmon [[Paper]](https://arxiv.org/abs/1612.08242)
+  * [-] YOLOv3: An Incremental Improvement (1804.02767), Joseph Redmon [[Paper]](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
 
-* [] Inside-Outside Net (arXiv:1512.04143), Sean Bell [[Paper](http://arxiv.org/abs/1512.04143)]
-* [] Deep Residual Network (arXiv:1512.03385), Kaiming He [[Paper](http://arxiv.org/abs/1512.03385)]
-* [] Weakly Supervised Object Localization with Multi-fold Multiple Instance Learning (arXiv:1503.00949), [[Paper](http://arxiv.org/pdf/1503.00949.pdf)]
-* [] R-FCN (arXiv:1605.06409), Jifeng Dai [[Paper](https://arxiv.org/abs/1605.06409)] [[Code](https://github.com/daijifeng001/R-FCN)]
-* [] SSD: Single Shot MultiBox Detector (arXiv:1512.05325v2) [[Paper]](https://arxiv.org/pdf/1512.02325v2.pdf) [[Code](https://github.com/weiliu89/caffe/tree/ssd)]
-* [] Speed/accuracy trade-offs for modern convolutional object detectors (arXiv:1611.10012), Jonarhan NHuang [[Paper](https://arxiv.org/pdf/1611.10012v1.pdf)]
+* [-] Inside-Outside Net (arXiv:1512.04143), Sean Bell [[Paper](http://arxiv.org/abs/1512.04143)]
+* [-] Deep Residual Network (arXiv:1512.03385), Kaiming He [[Paper](http://arxiv.org/abs/1512.03385)]
+* [-] Weakly Supervised Object Localization with Multi-fold Multiple Instance Learning (arXiv:1503.00949), [[Paper](http://arxiv.org/pdf/1503.00949.pdf)]
+* [-] R-FCN (arXiv:1605.06409), Jifeng Dai [[Paper](https://arxiv.org/abs/1605.06409)] [[Code](https://github.com/daijifeng001/R-FCN)]
+* [-] SSD: Single Shot MultiBox Detector (arXiv:1512.05325v2) [[Paper]](https://arxiv.org/pdf/1512.02325v2.pdf) [[Code](https://github.com/weiliu89/caffe/tree/ssd)]
+* [-] Speed/accuracy trade-offs for modern convolutional object detectors (arXiv:1611.10012), Jonarhan NHuang [[Paper](https://arxiv.org/pdf/1611.10012v1.pdf)]
 
 ### Video Classification
-* [] Delving Deeper into Convolutional Networks for Learning Video Representations (ICLR 2016), Nicolas Ballas [[Paper](http://arxiv.org/pdf/1511.06432v4.pdf)]
-* [] Deep Multi Scale Video Prediction Beyond Mean Square Error (ICLR 2016), Michael Mathieu [[Paper](http://arxiv.org/pdf/1511.05440v6.pdf)]
+* [-] Delving Deeper into Convolutional Networks for Learning Video Representations (ICLR 2016), Nicolas Ballas [[Paper](http://arxiv.org/pdf/1511.06432v4.pdf)]
+* [-] Deep Multi Scale Video Prediction Beyond Mean Square Error (ICLR 2016), Michael Mathieu [[Paper](http://arxiv.org/pdf/1511.05440v6.pdf)]
 
 ### Object Tracking
-* [] Online Tracking by Learning Discriminative Saliency Map with Convolutional Neural Network (arXiv:1502.06796), Seunghoon Hong [[Paper]](http://arxiv.org/pdf/1502.06796)
-* [] DeepTrack: Learning Discriminative Feature Representations by Convolutional Neural Networks for Visual Tracking, (BMVC  2014), Hanxi Li [[Paper]](http://www.bmva.org/bmvc/2014/files/paper028.pdf)
-* [] Learning a Deep Compact Image Representation for Visual Tracking, (NIPS 2013), N Wang [[Paper]](http://winsty.net/papers/dlt.pdf)
-* [] Hierarchical Convolutional Features for Visual Tracking (ICCV 2015), Chao Ma [[Paper](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Ma_Hierarchical_Convolutional_Features_ICCV_2015_paper.pdf)] [[Code](https://github.com/jbhuang0604/CF2)]
-* [] Visual Tracking with fully Convolutional Networks (ICCV 2015), Lijun Wang [[Paper](http://202.118.75.4/lu/Paper/ICCV2015/iccv15_lijun.pdf)] [[Code](https://github.com/scott89/FCNT)]
-* [] Learning Multi-Domain Convolutional Neural Networks for Visual Tracking (arXiv:1510.07945), Hyeonseob Nam, Bohyung Han [[Paper](http://arxiv.org/pdf/1510.07945.pdf)] [[Code](https://github.com/HyeonseobNam/MDNet)] [[Project Page](http://cvlab.postech.ac.kr/research/mdnet/)]
+* [-] Online Tracking by Learning Discriminative Saliency Map with Convolutional Neural Network (arXiv:1502.06796), Seunghoon Hong [[Paper]](http://arxiv.org/pdf/1502.06796)
+* [-] DeepTrack: Learning Discriminative Feature Representations by Convolutional Neural Networks for Visual Tracking, (BMVC  2014), Hanxi Li [[Paper]](http://www.bmva.org/bmvc/2014/files/paper028.pdf)
+* [-] Learning a Deep Compact Image Representation for Visual Tracking, (NIPS 2013), N Wang [[Paper]](http://winsty.net/papers/dlt.pdf)
+* [-] Hierarchical Convolutional Features for Visual Tracking (ICCV 2015), Chao Ma [[Paper](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Ma_Hierarchical_Convolutional_Features_ICCV_2015_paper.pdf)] [[Code](https://github.com/jbhuang0604/CF2)]
+* [-] Visual Tracking with fully Convolutional Networks (ICCV 2015), Lijun Wang [[Paper](http://202.118.75.4/lu/Paper/ICCV2015/iccv15_lijun.pdf)] [[Code](https://github.com/scott89/FCNT)]
+* [-] Learning Multi-Domain Convolutional Neural Networks for Visual Tracking (arXiv:1510.07945), Hyeonseob Nam, Bohyung Han [[Paper](http://arxiv.org/pdf/1510.07945.pdf)] [[Code](https://github.com/HyeonseobNam/MDNet)] [[Project Page](http://cvlab.postech.ac.kr/research/mdnet/)]
 
 ### Low-Level Vision
 
 #### Super-Resolution
-* [] Iterative Image Reconstruction (IJCAI, 2001), Sven Behnke [[Paper]](http://www.ais.uni-bonn.de/behnke/papers/ijcai01.pdf)
-* [] SRCNN: Super-Resolution (ECCV 2014), Chao Dong [[Web]](http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html) [[Paper-ECCV14]](http://personal.ie.cuhk.edu.hk/~ccloy/files/eccv_2014_deepresolution.pdf) [[Paper-arXiv15]](http://arxiv.org/pdf/1501.00092.pdf)
-* [] Very Deep Super-Resolution (arXiv:1511.04587), Jiwon Kim [[Paper]](http://arxiv.org/abs/1511.04587)
-* [] Deeply-Recursive Convolutional Network (arXIv:1511.04491), Jiwon Kim [[Paper]](http://arxiv.org/abs/1511.04491)
-* [] Casade-Sparse-Coding-Network (ICCV 2015), Zhaowen Wang [[Paper]](http://www.ifp.illinois.edu/~dingliu2/iccv15/iccv15.pdf) [[Code]](http://www.ifp.illinois.edu/~dingliu2/iccv15/)
-* [] Perceptual Losses for Super-Resolution (arXiv:1603.08155), Justin Johnson [[Paper]](http://arxiv.org/abs/1603.08155) [[Supplementary]](http://cs.stanford.edu/people/jcjohns/papers/fast-style/fast-style-supp.pdf)
-* [] SRGAN (arXiv:1609.04802v3), Christian Ledig [[Paper]](https://arxiv.org/pdf/1609.04802v3.pdf)
-* [] Image Super-Resolution with Fast Approximate Convolutional Sparse Coding (ICONIP 2014), Osendorfer [[Paper 2014]](http://brml.org/uploads/tx_sibibtex/281.pdf)
+* [-] Iterative Image Reconstruction (IJCAI, 2001), Sven Behnke [[Paper]](http://www.ais.uni-bonn.de/behnke/papers/ijcai01.pdf)
+* [-] SRCNN: Super-Resolution (ECCV 2014), Chao Dong [[Web]](http://mmlab.ie.cuhk.edu.hk/projects/SRCNN.html) [[Paper-ECCV14]](http://personal.ie.cuhk.edu.hk/~ccloy/files/eccv_2014_deepresolution.pdf) [[Paper-arXiv15]](http://arxiv.org/pdf/1501.00092.pdf)
+* [-] Very Deep Super-Resolution (arXiv:1511.04587), Jiwon Kim [[Paper]](http://arxiv.org/abs/1511.04587)
+* [-] Deeply-Recursive Convolutional Network (arXIv:1511.04491), Jiwon Kim [[Paper]](http://arxiv.org/abs/1511.04491)
+* [-] Casade-Sparse-Coding-Network (ICCV 2015), Zhaowen Wang [[Paper]](http://www.ifp.illinois.edu/~dingliu2/iccv15/iccv15.pdf) [[Code]](http://www.ifp.illinois.edu/~dingliu2/iccv15/)
+* [-] Perceptual Losses for Super-Resolution (arXiv:1603.08155), Justin Johnson [[Paper]](http://arxiv.org/abs/1603.08155) [[Supplementary]](http://cs.stanford.edu/people/jcjohns/papers/fast-style/fast-style-supp.pdf)
+* [-] SRGAN (arXiv:1609.04802v3), Christian Ledig [[Paper]](https://arxiv.org/pdf/1609.04802v3.pdf)
+* [-] Image Super-Resolution with Fast Approximate Convolutional Sparse Coding (ICONIP 2014), Osendorfer [[Paper 2014]](http://brml.org/uploads/tx_sibibtex/281.pdf)
 
 #### Stereo Matching
-* [] Convolutional Neural Network to Compare Image Patches (arXiv:1510.05970), S Zagoruyko [[Paper]](https://arxiv.org/abs/1510.05970)
-* [] FlowNet (arXiv:1504.06852), P Fischer [[Paper]](https://arxiv.org/abs/1504.06852),
-* [] Discriminative Learning of Deep Convolutional Feature Point Descriptors (ICCV 2015), E Simo-Serra [[Paper]](https://icwww.epfl.ch/~trulls/pdf/iccv-2015-deepdesc.pdf), 2015,
-* [] MatchNet (CVPR 2015), X Han [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Han_MatchNet_Unifying_Feature_2015_CVPR_paper.pdf),
-* [] Computing the Stereo Matching Cost with a Convolutional Neural Network (CVPR 2015), Jure Žbontar [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zbontar_Computing_the_Stereo_2015_CVPR_paper.pdf)
-* [] Colorful Image Colorization (ECCV 2016), Richard Zhang [[Paper]](http://arxiv.org/pdf/1603.08511.pdf), [[Code]](https://github.com/richzhang/colorization)
+* [-] Convolutional Neural Network to Compare Image Patches (arXiv:1510.05970), S Zagoruyko [[Paper]](https://arxiv.org/abs/1510.05970)
+* [-] FlowNet (arXiv:1504.06852), P Fischer [[Paper]](https://arxiv.org/abs/1504.06852),
+* [-] Discriminative Learning of Deep Convolutional Feature Point Descriptors (ICCV 2015), E Simo-Serra [[Paper]](https://icwww.epfl.ch/~trulls/pdf/iccv-2015-deepdesc.pdf), 2015,
+* [-] MatchNet (CVPR 2015), X Han [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Han_MatchNet_Unifying_Feature_2015_CVPR_paper.pdf),
+* [-] Computing the Stereo Matching Cost with a Convolutional Neural Network (CVPR 2015), Jure Žbontar [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zbontar_Computing_the_Stereo_2015_CVPR_paper.pdf)
+* [-] Colorful Image Colorization (ECCV 2016), Richard Zhang [[Paper]](http://arxiv.org/pdf/1603.08511.pdf), [[Code]](https://github.com/richzhang/colorization)
 
 
 #### Other Applications
-* [] Optical Flow (FlowNet) (arXiv:1504.06852) , Philipp Fischer [[Paper]](http://arxiv.org/pdf/1504.06852)
-* [] Compression Artifacts Reduction (arXiv:1504.06993), Chao Dong [[Paper]](http://arxiv.org/pdf/1504.06993)
+* [-] Optical Flow (FlowNet) (arXiv:1504.06852) , Philipp Fischer [[Paper]](http://arxiv.org/pdf/1504.06852)
+* [-] Compression Artifacts Reduction (arXiv:1504.06993), Chao Dong [[Paper]](http://arxiv.org/pdf/1504.06993)
 
 - Blur Removal
-  * [] Learning to Deblur, (arXiv:1406.7444), Christian J. Schuler [[Paper]](http://arxiv.org/pdf/1406.7444.pdf)
-  * [] Learning a Convolutional Neural Network for Non-uniform Motion Blur Removal, (CVPR 2015), Jian Sun [[Paper]](http://arxiv.org/pdf/1503.00593)
-* [] Image Deconvolution (NIPS 2014), Li Xu [[Web]](http://lxu.me/projects/dcnn/) [[Paper]](http://lxu.me/mypapers/dcnn_nips14.pdf)
-* [] Deep Edge-Aware Filter (ICMR 2015), Li Xu [[Paper]](http://jmlr.org/proceedings/papers/v37/xub15.pdf)
-* [] Colorful Image Colorization (ECCV 2016), [[Paper]](https://arxiv.org/abs/1603.08511) [[Project]](http://richzhang.github.io/colorization/) [[Blog-Ryan Dahl]](http://tinyclouds.org/colorize/)
-* [] Feature Learning by Inpainting (CVPR 2016), Deepak Pathak [[Paper]](https://arxiv.org/pdf/1604.07379v1.pdf)[[Code]](https://github.com/pathak22/context-encoder)
+  * [-] Learning to Deblur, (arXiv:1406.7444), Christian J. Schuler [[Paper]](http://arxiv.org/pdf/1406.7444.pdf)
+  * [-] Learning a Convolutional Neural Network for Non-uniform Motion Blur Removal, (CVPR 2015), Jian Sun [[Paper]](http://arxiv.org/pdf/1503.00593)
+* [-] Image Deconvolution (NIPS 2014), Li Xu [[Web]](http://lxu.me/projects/dcnn/) [[Paper]](http://lxu.me/mypapers/dcnn_nips14.pdf)
+* [-] Deep Edge-Aware Filter (ICMR 2015), Li Xu [[Paper]](http://jmlr.org/proceedings/papers/v37/xub15.pdf)
+* [-] Colorful Image Colorization (ECCV 2016), [[Paper]](https://arxiv.org/abs/1603.08511) [[Project]](http://richzhang.github.io/colorization/) [[Blog-Ryan Dahl]](http://tinyclouds.org/colorize/)
+* [-] Feature Learning by Inpainting (CVPR 2016), Deepak Pathak [[Paper]](https://arxiv.org/pdf/1604.07379v1.pdf)[[Code]](https://github.com/pathak22/context-encoder)
 
 ### Edge Detection
 ![edge_detection](https://cloud.githubusercontent.com/assets/5226447/8452371/93ca6f7e-2025-11e5-90f2-d428fd5ff7ac.PNG)
 (from Gedas Bertasius, Jianbo Shi, Lorenzo Torresani, DeepEdge: A Multi-Scale Bifurcated Deep Network for Top-Down Contour Detection, CVPR, 2015.)
 
-* [] Holistically-Nested Edge Detection (arXiv:1504.06375), Saining Xie [[Paper]](http://arxiv.org/pdf/1504.06375) [[Code]](https://github.com/s9xie/hed)
-* [] DeepEdge (CVPR 2015), Gedas Bertasius [[Paper]](http://arxiv.org/pdf/1412.1123)
-* [] DeepContour (CVPR 2015), Wei Shen [[Paper]](http://mc.eistar.net/UpLoadFiles/Papers/DeepContour_cvpr15.pdf)
+* [-] Holistically-Nested Edge Detection (arXiv:1504.06375), Saining Xie [[Paper]](http://arxiv.org/pdf/1504.06375) [[Code]](https://github.com/s9xie/hed)
+* [-] DeepEdge (CVPR 2015), Gedas Bertasius [[Paper]](http://arxiv.org/pdf/1412.1123)
+* [-] DeepContour (CVPR 2015), Wei Shen [[Paper]](http://mc.eistar.net/UpLoadFiles/Papers/DeepContour_cvpr15.pdf)
 
 ### Semantic Segmentation
 ![semantic_segmantation](https://cloud.githubusercontent.com/assets/5226447/8452076/0ba8340c-2023-11e5-88bc-bebf4509b6bb.PNG)
 (from Jifeng Dai, Kaiming He, Jian Sun, BoxSup: Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation, arXiv:1503.01640.)
-* [] PASCAL VOC2012 Challenge Leaderboard (01 Sep. 2016)
+* [-] PASCAL VOC2012 Challenge Leaderboard (01 Sep. 2016)
   ![VOC2012_top_rankings](https://cloud.githubusercontent.com/assets/3803777/18164608/c3678488-7038-11e6-9ec1-74a1542dce13.png)
   (from PASCAL VOC2012 [leaderboards](http://host.robots.ox.ac.uk:8080/leaderboard/displaylb.php?challengeid=11&compid=6))
-* [] SEC: Seed, Expand and Constrain (ECCV 2016), Alexander Kolesnikov [[Paper]](http://pub.ist.ac.at/~akolesnikov/files/ECCV2016/main.pdf) [[Code]](https://github.com/kolesman/SEC)
-* [] Adelaide, Guosheng Lin
-  * [] Efficient piecewise training of deep structured models for semantic segmentation (arXiv:1504.01013), Guosheng Lin  [[Paper]](http://arxiv.org/pdf/1504.01013) (1st ranked in VOC2012)
-  * [] Deeply Learning the Messages in Message Passing Inference (arXiv:1508.02108), Guosheng Lin [[Paper]](http://arxiv.org/pdf/1506.02108) (4th ranked in VOC2012)
+* [-] SEC: Seed, Expand and Constrain (ECCV 2016), Alexander Kolesnikov [[Paper]](http://pub.ist.ac.at/~akolesnikov/files/ECCV2016/main.pdf) [[Code]](https://github.com/kolesman/SEC)
+* [-] Adelaide, Guosheng Lin
+  * [-] Efficient piecewise training of deep structured models for semantic segmentation (arXiv:1504.01013), Guosheng Lin  [[Paper]](http://arxiv.org/pdf/1504.01013) (1st ranked in VOC2012)
+  * [-] Deeply Learning the Messages in Message Passing Inference (arXiv:1508.02108), Guosheng Lin [[Paper]](http://arxiv.org/pdf/1506.02108) (4th ranked in VOC2012)
 
-* [] Deep Parsing Network (DPN) (ICCV 2015), Ziwei Liu [[Paper]](http://arxiv.org/pdf/1509.02634.pdf) (2nd ranked in VOC 2012)
-* [] CentraleSuperBoundaries (arXiv 1511.07386), Iasonas Kokkinos [[Paper]](http://arxiv.org/pdf/1511.07386) (4th ranked in VOC 2012)
-* [] BoxSup (arXiv:1503.01640), ifeng Dai, [[Paper]](http://arxiv.org/pdf/1503.01640) (6th ranked in VOC2012)
+* [-] Deep Parsing Network (DPN) (ICCV 2015), Ziwei Liu [[Paper]](http://arxiv.org/pdf/1509.02634.pdf) (2nd ranked in VOC 2012)
+* [-] CentraleSuperBoundaries (arXiv 1511.07386), Iasonas Kokkinos [[Paper]](http://arxiv.org/pdf/1511.07386) (4th ranked in VOC 2012)
+* [-] BoxSup (arXiv:1503.01640), ifeng Dai, [[Paper]](http://arxiv.org/pdf/1503.01640) (6th ranked in VOC2012)
 - POSTECH
-  * [] Learning Deconvolution Network for Semantic Segmentation (arXiv:1505.04366), Hyeonwoo Noh [[Paper]](http://arxiv.org/pdf/1505.04366) (7th ranked in VOC2012)
-  * [] Decoupled Deep Neural Network for Semi-supervised Semantic Segmentation (arXiv:1506.04924), Seunghoon Hong [[Paper]](http://arxiv.org/pdf/1506.04924)
-  * [] Learning Transferrable Knowledge for Semantic Segmentation with Deep Convolutional Neural Network (arXiv:1512.07928), Seunghoon Hong [[Paper](http://arxiv.org/pdf/1512.07928.pdf)] [[Project Page](http://cvlab.postech.ac.kr/research/transfernet/)]
-* [] Conditional Random Fields as Recurrent Neural Networks (arXiv:1502.03240), Shuai Zheng [[Paper]](http://arxiv.org/pdf/1502.03240) (8th ranked in VOC2012)
-* [] DeepLab (arXiv:1502.02734), Liang-Chieh Chen [[Paper]](http://arxiv.org/pdf/1502.02734) (9th ranked in VOC2012)
-* [] Zoom-out (CVPR 2015), Mohammadreza Mostajabi [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Mostajabi_Feedforward_Semantic_Segmentation_2015_CVPR_paper.pdf)
-* [] Joint Calibration(arXiv:1507.01581), Holger Caesar [[Paper]](http://arxiv.org/pdf/1507.01581)
-* [] Fully Convolutional Networks for Semantic Segmentation (CVPR 2015), Jonathan Long [[Paper-CVPR15]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf) [[Paper-arXiv15]](http://arxiv.org/pdf/1411.4038)
-* [] Hypercolumn, Bharath Hariharan (CVPR 2015) [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Hariharan_Hypercolumns_for_Object_2015_CVPR_paper.pdf)
-* [] Deep Hierarchical Parsing (CVPR 2015), Abhishek Sharma [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Sharma_Deep_Hierarchical_Parsing_2015_CVPR_paper.pdf)
-* [] Learning Hierarchical Features for Scene Labeling, Clement Farabet [[Paper-ICML12]](http://yann.lecun.com/exdb/publis/pdf/farabet-icml-12.pdf) [[Paper-PAMI13]](http://yann.lecun.com/exdb/publis/pdf/farabet-pami-13.pdf)
+  * [-] Learning Deconvolution Network for Semantic Segmentation (arXiv:1505.04366), Hyeonwoo Noh [[Paper]](http://arxiv.org/pdf/1505.04366) (7th ranked in VOC2012)
+  * [-] Decoupled Deep Neural Network for Semi-supervised Semantic Segmentation (arXiv:1506.04924), Seunghoon Hong [[Paper]](http://arxiv.org/pdf/1506.04924)
+  * [-] Learning Transferrable Knowledge for Semantic Segmentation with Deep Convolutional Neural Network (arXiv:1512.07928), Seunghoon Hong [[Paper](http://arxiv.org/pdf/1512.07928.pdf)] [[Project Page](http://cvlab.postech.ac.kr/research/transfernet/)]
+* [-] Conditional Random Fields as Recurrent Neural Networks (arXiv:1502.03240), Shuai Zheng [[Paper]](http://arxiv.org/pdf/1502.03240) (8th ranked in VOC2012)
+* [-] DeepLab (arXiv:1502.02734), Liang-Chieh Chen [[Paper]](http://arxiv.org/pdf/1502.02734) (9th ranked in VOC2012)
+* [-] Zoom-out (CVPR 2015), Mohammadreza Mostajabi [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Mostajabi_Feedforward_Semantic_Segmentation_2015_CVPR_paper.pdf)
+* [-] Joint Calibration(arXiv:1507.01581), Holger Caesar [[Paper]](http://arxiv.org/pdf/1507.01581)
+* [-] Fully Convolutional Networks for Semantic Segmentation (CVPR 2015), Jonathan Long [[Paper-CVPR15]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf) [[Paper-arXiv15]](http://arxiv.org/pdf/1411.4038)
+* [-] Hypercolumn, Bharath Hariharan (CVPR 2015) [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Hariharan_Hypercolumns_for_Object_2015_CVPR_paper.pdf)
+* [-] Deep Hierarchical Parsing (CVPR 2015), Abhishek Sharma [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Sharma_Deep_Hierarchical_Parsing_2015_CVPR_paper.pdf)
+* [-] Learning Hierarchical Features for Scene Labeling, Clement Farabet [[Paper-ICML12]](http://yann.lecun.com/exdb/publis/pdf/farabet-icml-12.pdf) [[Paper-PAMI13]](http://yann.lecun.com/exdb/publis/pdf/farabet-pami-13.pdf)
 - SegNet [[Web]](http://mi.eng.cam.ac.uk/projects/segnet/)
-  * [] SegNet (arXiv:1511.00561), Vijay Badrinarayanan [[Paper]](http://arxiv.org/abs/1511.00561)
-  * [] Bayesian SegNet (arXiv:1511.02680), Alex Kendall [[Paper]](http://arxiv.org/abs/1511.00561)
-* [] Multi-Scale Context Aggregation by Dilated Convolutions (ICLR 2016), Fisher Yu [[Paper](http://arxiv.org/pdf/1511.07122v2.pdf)]
-* [] Segment-Phrase Table for Semantic Segmentation, Visual Entailment and Paraphrasing, (ICCV 2015), Hamid Izadinia [[Paper](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Izadinia_Segment-Phrase_Table_for_ICCV_2015_paper.pdf)]
-* [] Pusing the Boundaries of Boundary Detection Using deep Learning (ICLR 2016), Iasonas Kokkinos [[Paper](http://arxiv.org/pdf/1511.07386v2.pdf)]
-* [] Weakly supervised graph based semantic segmentation by learning communities of image-parts (ICCV 2015), Niloufar Pourian [[Paper](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Pourian_Weakly_Supervised_Graph_ICCV_2015_paper.pdf)]
+  * [-] SegNet (arXiv:1511.00561), Vijay Badrinarayanan [[Paper]](http://arxiv.org/abs/1511.00561)
+  * [-] Bayesian SegNet (arXiv:1511.02680), Alex Kendall [[Paper]](http://arxiv.org/abs/1511.00561)
+* [-] Multi-Scale Context Aggregation by Dilated Convolutions (ICLR 2016), Fisher Yu [[Paper](http://arxiv.org/pdf/1511.07122v2.pdf)]
+* [-] Segment-Phrase Table for Semantic Segmentation, Visual Entailment and Paraphrasing, (ICCV 2015), Hamid Izadinia [[Paper](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Izadinia_Segment-Phrase_Table_for_ICCV_2015_paper.pdf)]
+* [-] Pusing the Boundaries of Boundary Detection Using deep Learning (ICLR 2016), Iasonas Kokkinos [[Paper](http://arxiv.org/pdf/1511.07386v2.pdf)]
+* [-] Weakly supervised graph based semantic segmentation by learning communities of image-parts (ICCV 2015), Niloufar Pourian [[Paper](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Pourian_Weakly_Supervised_Graph_ICCV_2015_paper.pdf)]
 
 ### Visual Attention and Saliency
 ![saliency](https://cloud.githubusercontent.com/assets/5226447/8492362/7ec65b88-2183-11e5-978f-017e45ddba32.png)
 (from Nian Liu, Junwei Han, Dingwen Zhang, Shifeng Wen, Tianming Liu, Predicting Eye Fixations using Convolutional Neural Networks, CVPR, 2015.)
 
-* [] Mr-CNN (CVPR 2015), Nian Liu [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Liu_Predicting_Eye_Fixations_2015_CVPR_paper.pdf)
-* [] Learning a Sequential Search for Landmarks (CVPR 2015), Saurabh Singh [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Singh_Learning_a_Sequential_2015_CVPR_paper.pdf)
-* [] Multiple Object Recognition with Visual Attention (ICLR 2015), Jimmy Lei Ba [[Paper]](http://arxiv.org/pdf/1412.7755.pdf)
-* [] Recurrent Models of Visual Attention (NIPS 2014), Volodymyr Mnih [[Paper]](http://papers.nips.cc/paper/5542-recurrent-models-of-visual-attention.pdf)
+* [-] Mr-CNN (CVPR 2015), Nian Liu [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Liu_Predicting_Eye_Fixations_2015_CVPR_paper.pdf)
+* [-] Learning a Sequential Search for Landmarks (CVPR 2015), Saurabh Singh [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Singh_Learning_a_Sequential_2015_CVPR_paper.pdf)
+* [-] Multiple Object Recognition with Visual Attention (ICLR 2015), Jimmy Lei Ba [[Paper]](http://arxiv.org/pdf/1412.7755.pdf)
+* [-] Recurrent Models of Visual Attention (NIPS 2014), Volodymyr Mnih [[Paper]](http://papers.nips.cc/paper/5542-recurrent-models-of-visual-attention.pdf)
 
 ### Object Recognition
-* [] Weakly-supervised learning with convolutional neural networks (CVPR 2015), Maxime Oquab [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Oquab_Is_Object_Localization_2015_CVPR_paper.pdf)
-* [] FV-CNN (CVPR 2015), Mircea Cimpoi [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Cimpoi_Deep_Filter_Banks_2015_CVPR_paper.pdf)
+* [-] Weakly-supervised learning with convolutional neural networks (CVPR 2015), Maxime Oquab [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Oquab_Is_Object_Localization_2015_CVPR_paper.pdf)
+* [-] FV-CNN (CVPR 2015), Mircea Cimpoi [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Cimpoi_Deep_Filter_Banks_2015_CVPR_paper.pdf)
 
 ### Human Pose Estimation
-* [] Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields (CVPR 2017), Zhe Cao
-* [] Deepcut: Joint subset partition and labeling for multi person pose estimation (CVPR 2016), Leonid Pishchulin
-* [] Convolutional pose machines (CVPR 2016), Shih-En Wei
-* [] Stacked hourglass networks for human pose estimation (ECCV 2016), Alejandro Newell
-* [] Flowing convnets for human pose estimation in videos (ICCV 2015), T Pfister
-* [] Joint training of a convolutional network and a graphical model for human pose estimation (NIPS 2014), Jonathan J. Tompson
+* [-] Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields (CVPR 2017), Zhe Cao
+* [-] Deepcut: Joint subset partition and labeling for multi person pose estimation (CVPR 2016), Leonid Pishchulin
+* [-] Convolutional pose machines (CVPR 2016), Shih-En Wei
+* [-] Stacked hourglass networks for human pose estimation (ECCV 2016), Alejandro Newell
+* [-] Flowing convnets for human pose estimation in videos (ICCV 2015), T Pfister
+* [-] Joint training of a convolutional network and a graphical model for human pose estimation (NIPS 2014), Jonathan J. Tompson
 
 ### Understanding CNN
 ![understanding](https://cloud.githubusercontent.com/assets/5226447/8452083/1aaa0066-2023-11e5-800b-2248ead51584.PNG)
 (from Aravindh Mahendran, Andrea Vedaldi, Understanding Deep Image Representations by Inverting Them, CVPR, 2015.)
 
-* [] Understanding image representations by measuring their equivariance and equivalence (CVPR 2015), Karel Lenc [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lenc_Understanding_Image_Representations_2015_CVPR_paper.pdf)
-* [] Deep Neural Networks are Easily Fooled:High Confidence Predictions for Unrecognizable Images (CVPR 2015), Anh Nguyen [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Nguyen_Deep_Neural_Networks_2015_CVPR_paper.pdf)
-* [] Understanding Deep Image Representations by Inverting Them (CVPR 2015), Aravindh Mahendran [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Mahendran_Understanding_Deep_Image_2015_CVPR_paper.pdf)
-* [] Object Detectors Emerge in Deep Scene CNNs (ICLR 2015), Bolei Zhou [[arXiv Paper]](http://arxiv.org/abs/1412.6856)
-* [] Inverting Visual Representations with Convolutional Networks (arXiv:1506.02753), Alexey Dosovitskiy [[Paper]](http://arxiv.org/abs/1506.02753)
-* [] Visualizing and Understanding Convolutional Networks, (ECCV 2014), Matthrew Zeiler [[Paper]](https://www.cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
+* [-] Understanding image representations by measuring their equivariance and equivalence (CVPR 2015), Karel Lenc [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lenc_Understanding_Image_Representations_2015_CVPR_paper.pdf)
+* [-] Deep Neural Networks are Easily Fooled:High Confidence Predictions for Unrecognizable Images (CVPR 2015), Anh Nguyen [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Nguyen_Deep_Neural_Networks_2015_CVPR_paper.pdf)
+* [-] Understanding Deep Image Representations by Inverting Them (CVPR 2015), Aravindh Mahendran [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Mahendran_Understanding_Deep_Image_2015_CVPR_paper.pdf)
+* [-] Object Detectors Emerge in Deep Scene CNNs (ICLR 2015), Bolei Zhou [[arXiv Paper]](http://arxiv.org/abs/1412.6856)
+* [-] Inverting Visual Representations with Convolutional Networks (arXiv:1506.02753), Alexey Dosovitskiy [[Paper]](http://arxiv.org/abs/1506.02753)
+* [-] Visualizing and Understanding Convolutional Networks, (ECCV 2014), Matthrew Zeiler [[Paper]](https://www.cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
 
 ### Image and Language
 
@@ -381,20 +383,20 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
 
   ### Image Generation
   - Convolutional / Recurrent Networks
-    * [] Conditional Image Generation with PixelCNN Decoders (arXiv:1606.05328v2), Aäron van den Oord [[Paper]](https://arxiv.org/pdf/1606.05328v2.pdf)[[Code]](https://github.com/kundan2510/pixelCNN)
-    * []  Learning to Generate Chairs with Convolutional Neural Networks (CVPR 2015), Alexey Dosovitskiy [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Dosovitskiy_Learning_to_Generate_2015_CVPR_paper.pdf)
-    * []  DRAW: A Recurrent Neural Network For Image Generation (ICML 2015), Karol Gregor [[Paper](https://arxiv.org/pdf/1502.04623v2.pdf)]
+    * [-] Conditional Image Generation with PixelCNN Decoders (arXiv:1606.05328v2), Aäron van den Oord [[Paper]](https://arxiv.org/pdf/1606.05328v2.pdf)[[Code]](https://github.com/kundan2510/pixelCNN)
+    * [-]  Learning to Generate Chairs with Convolutional Neural Networks (CVPR 2015), Alexey Dosovitskiy [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Dosovitskiy_Learning_to_Generate_2015_CVPR_paper.pdf)
+    * [-]  DRAW: A Recurrent Neural Network For Image Generation (ICML 2015), Karol Gregor [[Paper](https://arxiv.org/pdf/1502.04623v2.pdf)]
   - Adversarial Networks
-    * [] GAN: Generative Adversarial Network (NIPS 2014), Ian J. Goodfellow. [[Paper]](http://arxiv.org/abs/1406.2661)
-    * [] Deep Generative Image Models using a Laplacian Pyramid of Adversarial Network (NIPS 2015), Emily Denton [[Paper]](http://arxiv.org/abs/1506.05751)
-    * [] A note on the evaluation of generative models (ICLR 2016), Lucas Theis [[Paper](http://arxiv.org/abs/1511.01844)]
-    * [] Variationally Auto-Encoded Deep Gaussian Processes (ICLR 2016), Zhenwen Dai [[Paper](http://arxiv.org/pdf/1511.06455v2.pdf)]
-    * [] Generating Images from Captions with Attention (ICLR 2016), Elman Mansimov [[Paper](http://arxiv.org/pdf/1511.02793v2.pdf)]
-    * [] Unsupervised and Semi-supervised Learning with Categorical Generative Adversarial Networks (ICLR 2016), Jost Tobias Springenberg [[Paper](http://arxiv.org/pdf/1511.06390v1.pdf)]
-    * [] Censoring Representations with an Adversary (ICLR 2016), Harrison Edwards [[Paper](http://arxiv.org/pdf/1511.05897v3.pdf)]
-    * [] Distributional Smoothing with Virtual Adversarial Training (ICLR 2016), Takeru Miyato [[Paper](http://arxiv.org/pdf/1507.00677v8.pdf)]
-    * [] Generative Visual Manipulation on the Natural Image Manifold (ECCV 2016), Jun-Yan Zhu [[Paper](https://arxiv.org/pdf/1609.03552v2.pdf)] [[Code](https://github.com/junyanz/iGAN)] [[Video](https://youtu.be/9c4z6YsBGQ0)]
-    * [] Mixing Convolutional and Adversarial Networks (ICLR 2016), Alec Radford [[Paper](http://arxiv.org/pdf/1511.06434.pdf)]
+    * [-] GAN: Generative Adversarial Network (NIPS 2014), Ian J. Goodfellow. [[Paper]](http://arxiv.org/abs/1406.2661)
+    * [-] Deep Generative Image Models using a Laplacian Pyramid of Adversarial Network (NIPS 2015), Emily Denton [[Paper]](http://arxiv.org/abs/1506.05751)
+    * [-] A note on the evaluation of generative models (ICLR 2016), Lucas Theis [[Paper](http://arxiv.org/abs/1511.01844)]
+    * [-] Variationally Auto-Encoded Deep Gaussian Processes (ICLR 2016), Zhenwen Dai [[Paper](http://arxiv.org/pdf/1511.06455v2.pdf)]
+    * [-] Generating Images from Captions with Attention (ICLR 2016), Elman Mansimov [[Paper](http://arxiv.org/pdf/1511.02793v2.pdf)]
+    * [-] Unsupervised and Semi-supervised Learning with Categorical Generative Adversarial Networks (ICLR 2016), Jost Tobias Springenberg [[Paper](http://arxiv.org/pdf/1511.06390v1.pdf)]
+    * [-] Censoring Representations with an Adversary (ICLR 2016), Harrison Edwards [[Paper](http://arxiv.org/pdf/1511.05897v3.pdf)]
+    * [-] Distributional Smoothing with Virtual Adversarial Training (ICLR 2016), Takeru Miyato [[Paper](http://arxiv.org/pdf/1507.00677v8.pdf)]
+    * [-] Generative Visual Manipulation on the Natural Image Manifold (ECCV 2016), Jun-Yan Zhu [[Paper](https://arxiv.org/pdf/1609.03552v2.pdf)] [[Code](https://github.com/junyanz/iGAN)] [[Video](https://youtu.be/9c4z6YsBGQ0)]
+    * [-] Mixing Convolutional and Adversarial Networks (ICLR 2016), Alec Radford [[Paper](http://arxiv.org/pdf/1511.06434.pdf)]
 
     ### Other Topics
     * Visual Analogy [[Paper](https://web.eecs.umich.edu/~honglak/nips2015-analogy.pdf)]
