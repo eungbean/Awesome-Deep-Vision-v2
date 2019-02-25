@@ -156,8 +156,8 @@ You can make your own badge [Here](https://shields.io/).
 
 ## Papers
 ### Computational Photography
-* [v] ![](https://img.shields.io/badge/READ-21--02--2019-lightgrey.svg) SIFT (IJCV 2004), DG Lowe [[Paper]](https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf) [[Post]](https://bskyvision.com/21)
-* [v] ![](https://img.shields.io/badge/READ-21--02--2019-lightgrey.svg) HOG (CVPR 2005) N Dalal [[Paper]](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)
+* [x] ![](https://img.shields.io/badge/READ-21--02--2019-lightgrey.svg) SIFT (IJCV 2004), DG Lowe [[Paper]](https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf) [[Post]](https://bskyvision.com/21)
+* [x] ![](https://img.shields.io/badge/READ-21--02--2019-lightgrey.svg) HOG (CVPR 2005) N Dalal [[Paper]](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf)
 * [ ] Recovering High Dynamic Range Radiance Maps from Photographs (SIGGRAPH 1997), PE Debevec [[Paper]](http://www.pauldebevec.com/Research/HDR/debevec-siggraph97.pdf)
 * [ ] Poisson Image Editing (SIGGRAPH 2003), P Pérez [[Paper]](http://www.irisa.fr/vista/Papers/2003_siggraph_perez.pdf)
 * [ ] Single Image Haze Removal Using Dark Channel Prior (TPAMI 2011), Kaiming He [[Paper]](https://www.robots.ox.ac.uk/~vgg/rg/papers/hazeremoval.pdf)
