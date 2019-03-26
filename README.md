@@ -164,11 +164,11 @@ You can make your own badge [Here](https://shields.io/).
 * [ ] Digital Photography with Flash and No-Flash Image Pairs (2004), Georg Petschnigg [[Paper]](http://hhoppe.com/flash.pdf)
 
 #### Filtering
-* [] Bilateral Filter (1998), C Tomasi [[Paper]](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/10spring/lectures/handouts/lec14_bilateral_4up.pdf)
-* [] Guided Filter (ECCV 2010), Kaiming He [[Paper]](http://kaiminghe.com/publications/eccv10guidedfilter.pdf) [[Project]](http://kaiminghe.com/eccv10/)
-* [] Rolling Guidance Filter (ECCV 2014), Q Zhang [[Paper]](Rolling Guidance Filter
+* [ ] Bilateral Filter (1998), C Tomasi [[Paper]](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/10spring/lectures/handouts/lec14_bilateral_4up.pdf)
+* [ ] Guided Filter (ECCV 2010), Kaiming He [[Paper]](http://kaiminghe.com/publications/eccv10guidedfilter.pdf) [[Project]](http://kaiminghe.com/eccv10/)
+* [ ]  Rolling Guidance Filter (ECCV 2014), Q Zhang [[Paper]](Rolling Guidance Filter
 https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](http://www.cse.cuhk.edu.hk/leojia/projects/rollguidance/)
-* [] WLS Filter (SIGGRAPH 2008), Z Farbman [[Paper]](http://evasion.imag.fr/Enseignement/cours/2009/ProjetImage/multiscale/multiscale.pdf) [[Projects]](http://www.cs.huji.ac.il/~danix/epd/)
+* [ ] WLS Filter (SIGGRAPH 2008), Z Farbman [[Paper]](http://evasion.imag.fr/Enseignement/cours/2009/ProjetImage/multiscale/multiscale.pdf) [[Projects]](http://www.cs.huji.ac.il/~danix/epd/)
 * [ ] Deep Joint Filtering (ECCV 2016), Y Li [[Paper]](http://faculty.ucmerced.edu/mhyang/papers/eccv16_joint_filter.pdf)
 * [ ] Deep Multi-scale Convolutional Neural Network for Dynamic Scene Deblurring (arXiv:1612.02177), Seungjun Nah [[Paper]](https://arxiv.org/abs/1612.02177)
 )
