@@ -245,15 +245,17 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
 
 #### Matching
 * [ ] Convolutional Neural Network to Compare Image Patches (arXiv:1510.05970), S Zagoruyko [[Paper]](https://arxiv.org/abs/1510.05970)
-* [ ] FlowNet (arXiv:1504.06852), P Fischer [[Paper]](https://arxiv.org/abs/1504.06852),
+* [x] ![](https://img.shields.io/badge/READ-04--03--2019-lightgrey.svg) FlowNet (arXiv:1504.06852), P Fischer [[Paper]](https://arxiv.org/abs/1504.06852),
 * [ ] Discriminative Learning of Deep Convolutional Feature Point Descriptors (ICCV 2015), E Simo-Serra [[Paper]](https://icwww.epfl.ch/~trulls/pdf/iccv-2015-deepdesc.pdf), 2015,
-* [ ] MatchNet (CVPR 2015), X Han [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Han_MatchNet_Unifying_Feature_2015_CVPR_paper.pdf),
-* [ ] Computing the Stereo Matching Cost with a Convolutional Neural Network (CVPR 2015), Jure Žbontar [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zbontar_Computing_the_Stereo_2015_CVPR_paper.pdf)
-* [ ] Colorful Image Colorization (ECCV 2016), Richard Zhang [[Paper]](http://arxiv.org/pdf/1603.08511.pdf), [[Code]](https://github.com/richzhang/colorization)
+* [x] ![](https://img.shields.io/badge/READ-04--03--2019-lightgrey.svg) MatchNet (CVPR 2015), X Han [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Han_MatchNet_Unifying_Feature_2015_CVPR_paper.pdf),
+* [x] ![](https://img.shields.io/badge/READ-04--03--2019-lightgrey.svg) Computing the Stereo Matching Cost with a Convolutional Neural Network (CVPR 2015), Jure Žbontar [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zbontar_Computing_the_Stereo_2015_CVPR_paper.pdf)
+* [x] ![](https://img.shields.io/badge/READ-04--03--2019-lightgrey.svg) Colorful Image Colorization (ECCV 2016), Richard Zhang [[Paper]](http://arxiv.org/pdf/1603.08511.pdf), [[Code]](https://github.com/richzhang/colorization)
 
 - Stereo matching
-  * [ ] Adaptive Support-Weight (TPAMI 2006), Kuk-Jin Yoon [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.892.8572&rep=rep1&type=pdf)
-  * [ ] Fast Cost-Volume Filtering (2012), Christoph Rhemann [[Paper]](http://wwwpub.zih.tu-dresden.de/~cvweb/publications/papers/2012/FastCost-VolumeFiltering.pdf)
+  * [x] ![](https://img.shields.io/badge/READ-11--03--2019-lightgrey.svg) Adaptive Support-Weight (TPAMI 2006), Kuk-Jin Yoon [[Paper]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.892.8572&rep=rep1&type=pdf)
+  * [x] ![](https://img.shields.io/badge/READ-11--03--2019-lightgrey.svg) Fast Cost-Volume Filtering (2012), Christoph Rhemann [[Paper]](http://wwwpub.zih.tu-dresden.de/~cvweb/publications/papers/2012/FastCost-VolumeFiltering.pdf)
+  * [x] ![](https://img.shields.io/badge/READ-11--03--2019-lightgrey.svg) Non-Rigid Dense Correspondence with Applications for Image Enhancement (TOG 2011), Y HaCohen [[Paper]](http://www.cs.huji.ac.il/~yoavhacohen/nrdc/nrdc.pdf)
+  * [x] ![](https://img.shields.io/badge/READ-11--03--2019-lightgrey.svg) Multi-modal and Multi-spectral Registration for Natural Images (ECCV 2014), X Shen [[Paper]](https://link.springer.com/chapter/10.1007/978-3-319-10593-2_21)
 
 
 #### Other Applications
