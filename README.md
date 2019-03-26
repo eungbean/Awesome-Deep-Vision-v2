@@ -188,26 +188,34 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
 ![object_detection](https://cloud.githubusercontent.com/assets/5226447/8452063/f76ba500-2022-11e5-8db1-2cd5d490e3b3.PNG)
 (from Shaoqing Ren, Kaiming He, Ross Girshick, Jian Sun, Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks, arXiv:1506.01497.)
 
+![object-detection-tree](/images/ObjectDetection.png)
+
 * [ ] PVANET (arXiv:1608.08021), Kye-Hyeon Kim [[Paper]](https://arxiv.org/pdf/1608.08021) [[Code]](https://github.com/sanghoon/pva-faster-rcnn)
 * [ ] OverFeat (ICLR 2014), P Sermanet [[Paper]](http://arxiv.org/pdf/1312.6229.pdf)
-* [ ] R-CNN, (CVPR 2014), Ross Girshick [[Paper-CVPR14]](http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.pdf) [[Paper-arXiv14]](http://arxiv.org/pdf/1311.2524)
-* [ ] SPP: Spatial Pyramid Pooling (ECCV 2014), Kaiming He [[Paper]](http://arxiv.org/pdf/1406.4729)
-* [ ] Fast R-CNN, (arXiv:1504.08083), Ross Girshick [[Paper]](http://arxiv.org/pdf/1504.08083)
-* [ ] Faster R-CNN, (arXiv:1506.01497), Shaoqing Ren [[Paper]](http://arxiv.org/pdf/1506.01497)
+* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) R-CNN, (CVPR 2014), Ross Girshick [[Paper-CVPR14]](http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.pdf) [[Paper-arXiv14]](http://arxiv.org/pdf/1311.2524)
+* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) SPP: Spatial Pyramid Pooling (ECCV 2014), Kaiming He [[Paper]](http://arxiv.org/pdf/1406.4729)
+* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) Fast R-CNN, (arXiv:1504.08083), Ross Girshick [[Paper]](http://arxiv.org/pdf/1504.08083)
+* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) Faster R-CNN, (arXiv:1506.01497), Shaoqing Ren [[Paper]](http://arxiv.org/pdf/1506.01497)
 * [ ] R-CNN minus R, (arXiv:1506.06981), Karel Lenc [[Paper]](http://arxiv.org/pdf/1506.06981)
 * [ ] End-to-end people detection in crowded scenes (arXiv:1506.04878), Russell Stewart, [[Paper]](http://arxiv.org/abs/1506.04878)
-* [ ] YOLO: Real-Time Object Detection, Joseph Redmon [[Project]](https://pjreddie.com/yolo/) [[C Code]](https://github.com/pjreddie/darknet), [[TF Code]](https://github.com/thtrieu/darkflow)
-  * [ ] You Only Look Once: Unified, Real-Time Object Detection (arXiv:1506.02640), Joseph Redmon [[Paper]](https://arxiv.org/abs/1506.02640)
-  * [ ] YOLO v2 (arXiv:1612.08242), Joseph Redmon [[Paper]](https://arxiv.org/abs/1612.08242)
-  * [ ] YOLOv3: An Incremental Improvement (1804.02767), Joseph Redmon [[Paper]](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
+* YOLO: Real-Time Object Detection, Joseph Redmon [[Project]](https://pjreddie.com/yolo/) [[C Code]](https://github.com/pjreddie/darknet), [[TF Code]](https://github.com/thtrieu/darkflow)
+  * [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) Yolo v1 (arXiv:1506.02640), Joseph Redmon [[Paper]](https://arxiv.org/abs/1506.02640)
+  * [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) YOLO v2 (arXiv:1612.08242), Joseph Redmon [[Paper]](https://arxiv.org/abs/1612.08242)
+  * [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) YOLO v3 (1804.02767), Joseph Redmon [[Paper]](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
 
 * [ ] Inside-Outside Net (arXiv:1512.04143), Sean Bell [[Paper](http://arxiv.org/abs/1512.04143)]
 * [ ] Deep Residual Network (arXiv:1512.03385), Kaiming He [[Paper](http://arxiv.org/abs/1512.03385)]
 * [ ] Weakly Supervised Object Localization with Multi-fold Multiple Instance Learning (arXiv:1503.00949), [[Paper](http://arxiv.org/pdf/1503.00949.pdf)]
-* [ ] R-FCN (arXiv:1605.06409), Jifeng Dai [[Paper](https://arxiv.org/abs/1605.06409)] [[Code](https://github.com/daijifeng001/R-FCN)]
+* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) R-FCN (arXiv:1605.06409), Jifeng Dai [[Paper](https://arxiv.org/abs/1605.06409)] [[Code](https://github.com/daijifeng001/R-FCN)]
 * [ ] SSD: Single Shot MultiBox Detector (arXiv:1512.05325v2) [[Paper]](https://arxiv.org/pdf/1512.02325v2.pdf) [[Code](https://github.com/weiliu89/caffe/tree/ssd)]
 * [ ] Speed/accuracy trade-offs for modern convolutional object detectors (arXiv:1611.10012), Jonarhan NHuang [[Paper](https://arxiv.org/pdf/1611.10012v1.pdf)]
 * [ ] Multispectral Deep Neural Networks for Pedestrian Detection (arXiv:1611.02644), J Liu [[Paper]](https://arxiv.org/abs/1611.02644)
+* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) R-FCN (NIPS 2016), [[Paper]](https://papers.nips.cc/paper/6465-r-fcn-object-detection-via-region-based-fully-convolutional-networks.pdf)
+* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) R-FPN (CVPR 2017), TY. Lin [[Paper]](https://arxiv.org/abs/1612.03144)
+* [ ]  Mask R-CNN (ICCV 2017), K. He [[Paper]](https://arxiv.org/abs/1703.06870)
+* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) RetinaNet (ICCV 2017), TY. Lin [[Paper]](https://arxiv.org/abs/1708.02002)
+* [ ] SNIP (arXiv:1711), B Singh [[Paper]](https://arxiv.org/abs/1711.08189)
+* [ ] SNIPER (arXiv:1805), B Singh [[Paper]](https://arxiv.org/abs/1805.09300)
 
 ### Video Classification
 * [ ] Delving Deeper into Convolutional Networks for Learning Video Representations (ICLR 2016), Nicolas Ballas [[Paper](http://arxiv.org/pdf/1511.06432v4.pdf)]
