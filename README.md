@@ -164,20 +164,22 @@ You can make your own badge [Here](https://shields.io/).
 * [ ] Digital Photography with Flash and No-Flash Image Pairs (2004), Georg Petschnigg [[Paper]](http://hhoppe.com/flash.pdf)
 
 #### Filtering
-* [ ] Bilateral Filter (1998), C Tomasi [[Paper]](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/10spring/lectures/handouts/lec14_bilateral_4up.pdf)
-* [ ] Guided Filter (ECCV 2010), Kaiming He [[Paper]](http://kaiminghe.com/publications/eccv10guidedfilter.pdf) [[Project]](http://kaiminghe.com/eccv10/)
-* [ ]  Rolling Guidance Filter (ECCV 2014), Q Zhang [[Paper]](Rolling Guidance Filter
+* [x] ![](https://img.shields.io/badge/READ-24--01--2019-lightgrey.svg) Bilateral Filter (1998), C Tomasi [[Paper]](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/10spring/lectures/handouts/lec14_bilateral_4up.pdf)
+* [x] ![](https://img.shields.io/badge/READ-24--01--2019-lightgrey.svg) Guided Filter (ECCV 2010), Kaiming He [[Paper]](http://kaiminghe.com/publications/eccv10guidedfilter.pdf) [[Project]](http://kaiminghe.com/eccv10/)
+* [x] ![](https://img.shields.io/badge/READ-11--02--2019-lightgrey.svg) Rolling Guidance Filter (ECCV 2014), Q Zhang [[Paper]](Rolling Guidance Filter
 https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](http://www.cse.cuhk.edu.hk/leojia/projects/rollguidance/)
-* [ ] WLS Filter (SIGGRAPH 2008), Z Farbman [[Paper]](http://evasion.imag.fr/Enseignement/cours/2009/ProjetImage/multiscale/multiscale.pdf) [[Projects]](http://www.cs.huji.ac.il/~danix/epd/)
-* [ ] Deep Joint Filtering (ECCV 2016), Y Li [[Paper]](http://faculty.ucmerced.edu/mhyang/papers/eccv16_joint_filter.pdf)
+* [x] ![](https://img.shields.io/badge/READ-11--02--2019-lightgrey.svg) WLS Filter (SIGGRAPH 2008), Z Farbman [[Paper]](http://evasion.imag.fr/Enseignement/cours/2009/ProjetImage/multiscale/multiscale.pdf) [[Projects]](http://www.cs.huji.ac.il/~danix/epd/)
+* [x] Deep Joint Filtering (ECCV 2016), Y Li [[Paper]](http://faculty.ucmerced.edu/mhyang/papers/eccv16_joint_filter.pdf)
 * [ ] Deep Multi-scale Convolutional Neural Network for Dynamic Scene Deblurring (arXiv:1612.02177), Seungjun Nah [[Paper]](https://arxiv.org/abs/1612.02177)
 )
+* [x] ![](https://img.shields.io/badge/READ-11--02--2019-lightgrey.svg) Colorization using optimization (ACMTOG 2004), A Levin [[Paper]](http://webee.technion.ac.il/people/anat.levin/papers/colorization-siggraph04.pdf)
+* [x] ![](https://img.shields.io/badge/READ-11--02--2019-lightgrey.svg) Domain transform for edge-aware image and video processing (ACMTOG 2011), ESL Gastel [[Paper]](https://dl.acm.org/citation.cfm?id=1964964)
 
 ### ImageNet Classification
 ![classification](https://cloud.githubusercontent.com/assets/5226447/8451949/327b9566-2022-11e5-8b34-53b4a64c13ad.PNG)
 (from Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton, ImageNet Classification with Deep Convolutional Neural Networks, NIPS, 2012.)
 
-* [ ] ResNet (arXiv:1512.03385), Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun [[Paper](http://arxiv.org/pdf/1512.03385v1.pdf)][[Slide](http://image-net.org/challenges/talks/ilsvrc2015_deep_residual_learning_kaiminghe.pdf)]
+* [ ] ResNet (arXiv:1512.03385), K He [[Paper](http://arxiv.org/pdf/1512.03385v1.pdf)][[Slide](http://image-net.org/challenges/talks/ilsvrc2015_deep_residual_learning_kaiminghe.pdf)]
 * [ ] PReLu/Weight Initialization (arXiv:1502.01852), Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun [[Paper]](http://arxiv.org/pdf/1502.01852)
 * [ ] Batch Normalization (arXiv:1502.03167), Sergey Ioffe, Christian Szegedy [[Paper]](http://arxiv.org/pdf/1502.03167)
 * [ ] GoogLeNet (CVPR 2015), Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent Vanhoucke, Andrew Rabinovich [[Paper]](http://arxiv.org/pdf/1409.4842)
@@ -245,7 +247,6 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
 
 #### Matching
 * [ ] Convolutional Neural Network to Compare Image Patches (arXiv:1510.05970), S Zagoruyko [[Paper]](https://arxiv.org/abs/1510.05970)
-* [x] ![](https://img.shields.io/badge/READ-04--03--2019-lightgrey.svg) FlowNet (arXiv:1504.06852), P Fischer [[Paper]](https://arxiv.org/abs/1504.06852),
 * [ ] Discriminative Learning of Deep Convolutional Feature Point Descriptors (ICCV 2015), E Simo-Serra [[Paper]](https://icwww.epfl.ch/~trulls/pdf/iccv-2015-deepdesc.pdf), 2015,
 * [x] ![](https://img.shields.io/badge/READ-04--03--2019-lightgrey.svg) MatchNet (CVPR 2015), X Han [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Han_MatchNet_Unifying_Feature_2015_CVPR_paper.pdf),
 * [x] ![](https://img.shields.io/badge/READ-04--03--2019-lightgrey.svg) Computing the Stereo Matching Cost with a Convolutional Neural Network (CVPR 2015), Jure Žbontar [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zbontar_Computing_the_Stereo_2015_CVPR_paper.pdf)
@@ -259,7 +260,7 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
 
 
 #### Other Applications
-* [ ] Optical Flow (FlowNet) (arXiv:1504.06852) , Philipp Fischer [[Paper]](http://arxiv.org/pdf/1504.06852)
+* [x] ![](https://img.shields.io/badge/READ-04--03--2019-lightgrey.svg) FlowNet (arXiv:1504.06852), P Fischer [[Paper]](https://arxiv.org/abs/1504.06852)
 * [ ] Compression Artifacts Reduction (arXiv:1504.06993), Chao Dong [[Paper]](http://arxiv.org/pdf/1504.06993)
 
 - Blur Removal
