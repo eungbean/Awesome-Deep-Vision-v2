@@ -74,6 +74,7 @@ You can make your own badge [Here](https://shields.io/).
     - [Video Captioning](#video-captioning)
     - [Question Answering](#question-answering)
   - [Image Generation](#image-generation)
+  - [GAN](#gan)
   - [3D](#3d)
   - [Other Topics](#other-topics)
 - [Software](#software)
@@ -194,28 +195,28 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
 
 * [ ] PVANET (arXiv:1608.08021), Kye-Hyeon Kim [[Paper]](https://arxiv.org/pdf/1608.08021) [[Code]](https://github.com/sanghoon/pva-faster-rcnn)
 * [ ] OverFeat (ICLR 2014), P Sermanet [[Paper]](http://arxiv.org/pdf/1312.6229.pdf)
-* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) R-CNN, (CVPR 2014), Ross Girshick [[Paper-CVPR14]](http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.pdf) [[Paper-arXiv14]](http://arxiv.org/pdf/1311.2524)
-* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) SPP: Spatial Pyramid Pooling (ECCV 2014), Kaiming He [[Paper]](http://arxiv.org/pdf/1406.4729)
-* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) Fast R-CNN, (arXiv:1504.08083), Ross Girshick [[Paper]](http://arxiv.org/pdf/1504.08083)
-* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) Faster R-CNN, (arXiv:1506.01497), Shaoqing Ren [[Paper]](http://arxiv.org/pdf/1506.01497)
+* [x] R-CNN, (CVPR 2014), Ross Girshick [[Paper-CVPR14]](http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.pdf) [[Paper-arXiv14]](http://arxiv.org/pdf/1311.2524) ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg)
+* [x] SPP: Spatial Pyramid Pooling (ECCV 2014), Kaiming He [[Paper]](http://arxiv.org/pdf/1406.4729) ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg)
+* [x] Fast R-CNN, (arXiv:1504.08083), Ross Girshick [[Paper]](http://arxiv.org/pdf/1504.08083) ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg)
+* [x] Faster R-CNN, (arXiv:1506.01497), Shaoqing Ren [[Paper]](http://arxiv.org/pdf/1506.01497) ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg)
 * [ ] R-CNN minus R, (arXiv:1506.06981), Karel Lenc [[Paper]](http://arxiv.org/pdf/1506.06981)
 * [ ] End-to-end people detection in crowded scenes (arXiv:1506.04878), Russell Stewart, [[Paper]](http://arxiv.org/abs/1506.04878)
 * YOLO: Real-Time Object Detection, Joseph Redmon [[Project]](https://pjreddie.com/yolo/) [[C Code]](https://github.com/pjreddie/darknet), [[TF Code]](https://github.com/thtrieu/darkflow)
-  * [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) Yolo v1 (arXiv:1506.02640), Joseph Redmon [[Paper]](https://arxiv.org/abs/1506.02640)
-  * [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) YOLO v2 (arXiv:1612.08242), Joseph Redmon [[Paper]](https://arxiv.org/abs/1612.08242)
-  * [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) YOLO v3 (1804.02767), Joseph Redmon [[Paper]](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
+  * [x] YOLO v1 (arXiv:1506.02640), Joseph Redmon [[Paper]](https://arxiv.org/abs/1506.02640) ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg)
+  * [x] YOLO v2 (arXiv:1612.08242), Joseph Redmon [[Paper]](https://arxiv.org/abs/1612.08242) ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg)
+  * [x] YOLO v3 (1804.02767), Joseph Redmon [[Paper]](https://pjreddie.com/media/files/papers/YOLOv3.pdf) ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg)
 
 * [ ] Inside-Outside Net (arXiv:1512.04143), Sean Bell [[Paper](http://arxiv.org/abs/1512.04143)]
 * [ ] Deep Residual Network (arXiv:1512.03385), Kaiming He [[Paper](http://arxiv.org/abs/1512.03385)]
 * [ ] Weakly Supervised Object Localization with Multi-fold Multiple Instance Learning (arXiv:1503.00949), [[Paper](http://arxiv.org/pdf/1503.00949.pdf)]
-* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) R-FCN (arXiv:1605.06409), Jifeng Dai [[Paper](https://arxiv.org/abs/1605.06409)] [[Code](https://github.com/daijifeng001/R-FCN)]
+* [x] R-FCN (arXiv:1605.06409), Jifeng Dai [[Paper](https://arxiv.org/abs/1605.06409)] [[Code](https://github.com/daijifeng001/R-FCN)] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg)
 * [ ] SSD: Single Shot MultiBox Detector (arXiv:1512.05325v2) [[Paper]](https://arxiv.org/pdf/1512.02325v2.pdf) [[Code](https://github.com/weiliu89/caffe/tree/ssd)]
 * [ ] Speed/accuracy trade-offs for modern convolutional object detectors (arXiv:1611.10012), Jonarhan NHuang [[Paper](https://arxiv.org/pdf/1611.10012v1.pdf)]
 * [ ] Multispectral Deep Neural Networks for Pedestrian Detection (arXiv:1611.02644), J Liu [[Paper]](https://arxiv.org/abs/1611.02644)
-* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) R-FCN (NIPS 2016), [[Paper]](https://papers.nips.cc/paper/6465-r-fcn-object-detection-via-region-based-fully-convolutional-networks.pdf)
-* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) R-FPN (CVPR 2017), TY. Lin [[Paper]](https://arxiv.org/abs/1612.03144)
+* [x] R-FCN (NIPS 2016), [[Paper]](https://papers.nips.cc/paper/6465-r-fcn-object-detection-via-region-based-fully-convolutional-networks.pdf) ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg)
+* [x] R-FPN (CVPR 2017), TY. Lin [[Paper]](https://arxiv.org/abs/1612.03144) ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg)
 * [ ]  Mask R-CNN (ICCV 2017), K. He [[Paper]](https://arxiv.org/abs/1703.06870)
-* [x] ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg) RetinaNet (ICCV 2017), TY. Lin [[Paper]](https://arxiv.org/abs/1708.02002)
+* [x] RetinaNet (ICCV 2017), TY. Lin [[Paper]](https://arxiv.org/abs/1708.02002) ![](https://img.shields.io/badge/READ-25--03--2019-lightgrey.svg)
 * [ ] SNIP (arXiv:1711), B Singh [[Paper]](https://arxiv.org/abs/1711.08189)
 * [ ] SNIPER (arXiv:1805), B Singh [[Paper]](https://arxiv.org/abs/1805.09300)
 
@@ -448,7 +449,7 @@ and Fully Connected CRFs (arXiv:1606.00915v2), Liang-Chieh Chen [[Paper]](https:
     * [ ]  Learning to Generate Chairs with Convolutional Neural Networks (CVPR 2015), Alexey Dosovitskiy [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Dosovitskiy_Learning_to_Generate_2015_CVPR_paper.pdf)
     * [ ]  DRAW: A Recurrent Neural Network For Image Generation (ICML 2015), Karol Gregor [[Paper](https://arxiv.org/pdf/1502.04623v2.pdf)]
   - Adversarial Networks
-    * [ ] GAN: Generative Adversarial Network (NIPS 2014), Ian J. Goodfellow. [[Paper]](http://arxiv.org/abs/1406.2661)
+    * [ ] Vanila GAN (NIPS 2014), Ian J. Goodfellow. [[Paper]](http://arxiv.org/abs/1406.2661)
     * [ ] Deep Generative Image Models using a Laplacian Pyramid of Adversarial Network (NIPS 2015), Emily Denton [[Paper]](http://arxiv.org/abs/1506.05751)
     * [ ] A note on the evaluation of generative models (ICLR 2016), Lucas Theis [[Paper](http://arxiv.org/abs/1511.01844)]
     * [ ] Variationally Auto-Encoded Deep Gaussian Processes (ICLR 2016), Zhenwen Dai [[Paper](http://arxiv.org/pdf/1511.06455v2.pdf)]
@@ -464,6 +465,31 @@ and Fully Connected CRFs (arXiv:1606.00915v2), Liang-Chieh Chen [[Paper]](https:
     * [ ] Depth Map Prediction from a Single Image
 using a Multi-Scale Deep Network (NIPS 2014), David Eigen [[Paper]](https://papers.nips.cc/paper/5539-depth-map-prediction-from-a-single-image-using-a-multi-scale-deep-network.pdf)
     * [ ] 3D Shape Retrieval (CVPR 2015), Fang Wang [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Wang_Sketch-Based_3D_Shape_2015_CVPR_paper.pdf)
+
+    ### GAN: Generative Adversarial networks
+    * [ ] Vanilla GAN (NIPS2014), I Goodfellow [[Paper]](https://arxiv.org/abs/1406.2661)
+    * [ ] Conditional GAN (2014), M Mirza [[Paper]](https://arxiv.org/abs/1411.1784)
+    * [ ] InfoGAN (2016), Xi Chen [[Paper]](https://arxiv.org/abs/1606.03657)
+    * [ ] Wasserstein GAN (2017), M Arjovsky  [[Paper]](https://arxiv.org/abs/1701.07875)
+    * [ ] Mode Regularized GAN (2017), T Che  [[Paper]](https://arxiv.org/abs/1612.02136)
+    * [ ] Coupled GAN (2016), MY Liu [[Paper]](https://arxiv.org/abs/1606.07536)
+    * [ ] Auxiliary Classifier GAN (2017), A Odena  [[Paper]](https://arxiv.org/abs/1610.09585)
+    * [ ] Least Squares GAN (2017), X Mao [[Paper]](https://arxiv.org/abs/1611.04076v2)
+    * [ ] Boundary Seeking GAN (2017), RD Hjelm [[Paper]](https://arxiv.org/abs/1702.08431)
+    * [ ] Energy Based GAN (2016), J Zhao [[Paper]](https://arxiv.org/abs/1609.03126)
+    * [ ] f-GAN (2016), S Nowozin [[Paper]](https://arxiv.org/abs/1606.00709)
+    * [ ] Generative Adversarial Parallelization (2016), DJ Im [[Paper]](https://arxiv.org/abs/1612.04021)
+    * [ ] DiscoGAN (2017), TS Kim [[Paper]](https://arxiv.org/abs/1703.05192)
+    * [ ] Adversarial Feature Learning (2016), J Donahue [[Paper]](https://arxiv.org/abs/1605.09782)
+    * [ ] Adversarially Learned Inference (2016), V Dumoulin  [[Paper]](https://arxiv.org/abs/1606.00704)
+    * [ ] Boundary Equilibrium GAN 2017(), D Berthelot [[Paper]](https://arxiv.org/abs/1703.10717)
+    * [ ] Improved Training for Wasserstein GAN (),  [[Paper]](https://arxiv.org/abs/1704.00028)
+    * [ ] DualGAN (2017), Z Yi [[Paper]](https://arxiv.org/abs/1704.02510)
+    * [ ] MAGAN: Margin Adaptation for GAN (2017), R Wang [[Paper]](https://arxiv.org/abs/1704.03817)
+    * [ ] Softmax GAN (2017), M Lin [[Paper]](https://arxiv.org/abs/1704.06191)
+    * [ ] GibbsNet (NIPS2017), A Lamb [[Paper]](https://papers.nips.cc/paper/7094-gibbsnet-iterative-adversarial-inference-for-deep-graphical-models.pdf)
+    * [ ] Big GAN (2018), A Brock [[Paper]](https://arxiv.org/abs/1809.11096)
+    * [ ] MoCo GAN (2018), S Tulyakov [[Paper]](https://arxiv.org/abs/1707.04993)
 
     ### Other Topics
     * Visual Analogy [[Paper](https://web.eecs.umich.edu/~honglak/nips2015-analogy.pdf)]
