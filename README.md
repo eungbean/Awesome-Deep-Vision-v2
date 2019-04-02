@@ -167,7 +167,7 @@ You can make your own badge [Here](https://shields.io/).
  * Single Image Haze Removal Using Dark Channel Prior (TPAMI 2011), Kaiming He [[Paper]](https://www.robots.ox.ac.uk/~vgg/rg/papers/hazeremoval.pdf)
  * Digital Photography with Flash and No-Flash Image Pairs (2004), Georg Petschnigg [[Paper]](http://hhoppe.com/flash.pdf)
 
-#### Filtering
+### Filtering
 * Bilateral Filter (1998), C Tomasi [[Paper]](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/10spring/lectures/handouts/lec14_bilateral_4up.pdf)
 * Guided Filter (ECCV 2010), Kaiming He [[Paper]](http://kaiminghe.com/publications/eccv10guidedfilter.pdf) [[Project]](http://kaiminghe.com/eccv10/)
 * Rolling Guidance Filter (ECCV 2014), Q Zhang [[Paper]](Rolling Guidance Filter
@@ -207,7 +207,7 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
  * R-FCN (arXiv:1605.06409), Jifeng Dai [[Paper](https://arxiv.org/abs/1605.06409)] [[Code](https://github.com/daijifeng001/R-FCN)]  * SSD: Single Shot MultiBox Detector (arXiv:1512.05325v2) [[Paper]](https://arxiv.org/pdf/1512.02325v2.pdf) [[Code](https://github.com/weiliu89/caffe/tree/ssd)]
  * Speed/accuracy trade-offs for modern convolutional object detectors (arXiv:1611.10012), Jonarhan NHuang [[Paper](https://arxiv.org/pdf/1611.10012v1.pdf)]
  * Multispectral Deep Neural Networks for Pedestrian Detection (arXiv:1611.02644), J Liu [[Paper]](https://arxiv.org/abs/1611.02644)
- * R-FCN (NIPS 2016), [[Paper]](https://papers.nips.cc/paper/6465-r-fcn-object-detection-via-region-based-fully-convolutional-networks.pdf)  * R-FPN (CVPR 2017), TY. Lin [[Paper]](https://arxiv.org/abs/1612.03144)  *  Mask R-CNN (ICCV 2017), K. He [[Paper]](https://arxiv.org/abs/1703.06870)
+ * R-FCN (NIPS 2016), [[Paper]](https://papers.nips.cc/paper/6465-r-fcn-object-detection-via-region-based-fully-convolutional-networks.pdf)  * R-FPN (CVPR 2017), TY. Lin [[Paper]](https://arxiv.org/abs/1612.03144)   * Mask R-CNN (ICCV 2017), K. He [[Paper]](https://arxiv.org/abs/1703.06870)
  * RetinaNet (ICCV 2017), TY. Lin [[Paper]](https://arxiv.org/abs/1708.02002)  * SNIP (arXiv:1711), B Singh [[Paper]](https://arxiv.org/abs/1711.08189)
  * SNIPER (arXiv:1805), B Singh [[Paper]](https://arxiv.org/abs/1805.09300)
 
@@ -437,8 +437,9 @@ and Fully Connected CRFs (arXiv:1606.00915v2), Liang-Chieh Chen [[Paper]](https:
   ### Image Generation
   - Convolutional / Recurrent Networks
      * Conditional Image Generation with PixelCNN Decoders (arXiv:1606.05328v2), Aäron van den Oord [[Paper]](https://arxiv.org/pdf/1606.05328v2.pdf)[[Code]](https://github.com/kundan2510/pixelCNN)
-     *  Learning to Generate Chairs with Convolutional Neural Networks (CVPR 2015), Alexey Dosovitskiy [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Dosovitskiy_Learning_to_Generate_2015_CVPR_paper.pdf)
-     *  DRAW: A Recurrent Neural Network For Image Generation (ICML 2015), Karol Gregor [[Paper](https://arxiv.org/pdf/1502.04623v2.pdf)]
+      * Learning to Generate Chairs with Convolutional Neural Networks (CVPR 2015), Alexey Dosovitskiy [[Paper]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Dosovitskiy_Learning_to_Generate_2015_CVPR_paper.pdf)
+      * DRAW: A Recurrent Neural Network For Image Generation (ICML 2015), Karol Gregor [[Paper](https://arxiv.org/pdf/1502.04623v2.pdf)]
+
   - Adversarial Networks
      * Vanila GAN (NIPS 2014), Ian J. Goodfellow. [[Paper]](http://arxiv.org/abs/1406.2661)
      * Deep Generative Image Models using a Laplacian Pyramid of Adversarial Network (NIPS 2015), Emily Denton [[Paper]](http://arxiv.org/abs/1506.05751)
@@ -503,7 +504,6 @@ using a Multi-Scale Deep Network (NIPS 2014), David Eigen [[Paper]](https://pape
       * Florian Schroff, Dmitry Kalenichenko, James Philbin, FaceNet: A Unified Embedding for Face Recognition and Clustering, CVPR, 2015. [[Paper]](http://arxiv.org/abs/1503.03832)
     * Facial Landmark Detection
       * Yue Wu, Tal Hassner, KangGeon Kim, Gerard Medioni, Prem Natarajan, Facial Landmark Detection with Tweaked Convolutional Neural Networks, 2015. [[Paper]](http://arxiv.org/abs/1511.04031) [[Project]](http://www.openu.ac.il/home/hassner/projects/tcnn_landmarks/)
-
 
         ## Software
         ### Framework
