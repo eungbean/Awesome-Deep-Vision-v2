@@ -429,7 +429,7 @@ and Fully Connected CRFs (arXiv:1606.00915v2), Liang-Chieh Chen [[Paper]](https:
 * UC Berkeley + Sony [[Paper](https://arxiv.org/pdf/1606.01847)]
   * Akira Fukui, Dong Huk Park, Daylen Yang, Anna Rohrbach, Trevor Darrell, and Marcus Rohrbach, *Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding*, arXiv:1606.01847
 * Postech [[Paper](http://arxiv.org/pdf/1606.03647.pdf)]
-  * Hyeonwoo Noh and Bohyung Han, *Training Recurrent Answering Units with Joint Loss Minimization for VQA*, arXiv:1606.03647
+  * Hyeonwoo Noh and Bohyung Han, * Recurrent Answering Units with Joint Loss Minimization for VQA*, arXiv:1606.03647
 * SNU + NAVER [[Paper](http://arxiv.org/abs/1610.04325)]
   * Jin-Hwa Kim, Kyoung Woon On, Jeonghee Kim, Jung-Woo Ha, Byoung-Tak Zhang, *Hadamard Product for Low-rank Bilinear Pooling*, arXiv:1610.04325.
 
