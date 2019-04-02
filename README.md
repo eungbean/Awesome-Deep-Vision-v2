@@ -97,18 +97,25 @@ You can make your own badge [Here](https://shields.io/).
 - Machine learning
   * [UC Berkeley] [CS 189/289A: Introduction to Machine Learning](http://www-inst.eecs.berkeley.edu/~cs189/fa15/), Fall 2015, [UC Berkeley login required]
   * [EE 221A: Nonlinear Systems](https://inst.eecs.berkeley.edu/~ee222/sp17/), UC Berkeley, Fall 2016
+
+- Deep learning
+* [Udacity] [ND101: Deep Learning - $999](https://www.udacity.com/course/deep-learning-nanodegree--nd101)
+* [Oxford] [Deep Learning by Prof. Nando de Freitas](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/)
+* [NYU] [Deep Learning by Prof. Yann LeCun](http://cilvr.cs.nyu.edu/doku.php?id=courses:deeplearning2014:start)
+* [IEOR 265: Learning and Optimization](http://ieor.berkeley.edu/~aaswani/teaching/SP16/265/), UC Berkeley, Spring 2016
+* [Deep Learning for everybody (Korean)](https://hunkim.github.io/ml/), by [Hun Kim](https://github.com/hunkim)
+
 - Deep Vision
+  * [Udacity] [UD810: Introduction to Computer Vision with Georgia Tech](https://www.udacity.com/course/introduction-to-computer-vision--ud810)
+  * [Udacity] [ND891: Computer Vision with Deep Learning - $999](https://www.udacity.com/course/computer-vision-nanodegree--nd891)
   * [Stanford] [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
   * [CUHK] [ELEG 5040: Advanced Topics in Signal Processing(Introduction to Deep Learning)](https://piazza.com/cuhk.edu.hk/spring2015/eleg5040/home)
+
 - More Deep Learning
   * [Stanford] [CS224d: Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/)
-  * [Oxford] [Deep Learning by Prof. Nando de Freitas](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/)
-  * [NYU] [Deep Learning by Prof. Yann LeCun](http://cilvr.cs.nyu.edu/doku.php?id=courses:deeplearning2014:start)
-  * [IEOR 265: Learning and Optimization](http://ieor.berkeley.edu/~aaswani/teaching/SP16/265/), UC Berkeley, Spring 2016
   * [CS 294-129: Designing, Visualizing, and Understanding Deep Neural Networks](https://bcourses.berkeley.edu/courses/1453965), UC Berkeley, Fall 2016 [UC Berkeley login required]
   * [CS 294-112: Deep Reinforcement Learning](http://rll.berkeley.edu/deeprlcoursesp17/), UC Berkeley,  Spring 2017
   * [CS 294-131: Special Topics in Deep Learning](https://berkeley-deep-learning.github.io/cs294-131-s17/), UC Berkeley, Spring 2017
-  * [Deep Learning for everybody (Korean)](https://hunkim.github.io/ml/), by [Hun Kim](https://github.com/hunkim)
 
 ### Lab Blogs
 
