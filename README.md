@@ -184,7 +184,6 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
 
  * ResNet (arXiv:1512.03385), K He [[Paper](http://arxiv.org/pdf/1512.03385v1.pdf)][[Slide](http://image-net.org/challenges/talks/ilsvrc2015_deep_residual_learning_kaiminghe.pdf)]
  * PReLu/Weight Initialization (arXiv:1502.01852), Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun [[Paper]](http://arxiv.org/pdf/1502.01852)
- * Batch Normalization (arXiv:1502.03167), Sergey Ioffe, Christian Szegedy [[Paper]](http://arxiv.org/pdf/1502.03167)
  * GoogLeNet (CVPR 2015), Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent Vanhoucke, Andrew Rabinovich [[Paper]](http://arxiv.org/pdf/1409.4842)
  * VGG-Net (ICLR 2015), Karen Simonyan and Andrew Zisserman [[Web]](http://www.robots.ox.ac.uk/~vgg/research/very_deep/) [[Paper]](http://arxiv.org/pdf/1409.1556)
  * AlexNet (NIPS, 2012) Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton, [[Paper]](http://papers.nips.cc/book/advances-in-neural-information-processing-systems-25-2012)
@@ -482,6 +481,11 @@ using a Multi-Scale Deep Network (NIPS 2014), David Eigen [[Paper]](https://pape
      * GibbsNet (NIPS2017), A Lamb [[Paper]](https://papers.nips.cc/paper/7094-gibbsnet-iterative-adversarial-inference-for-deep-graphical-models.pdf)
      * Big GAN (2018), A Brock [[Paper]](https://arxiv.org/abs/1809.11096)
      * MoCo GAN (2018), S Tulyakov [[Paper]](https://arxiv.org/abs/1707.04993)
+
+    ### training
+    * Batch Normalization (arXiv:1502.03167), S Ioffe [[Paper]](http://arxiv.org/pdf/1502.03167)
+    * Weight Standardization (arXiv1903), S Qiao [[Paper]](https://arxiv.org/pdf/1903.10520.pdf) [[Code]](https://github.com/joe-siyuan-qiao/WeightStandardization)
+
 
     ### Other Topics
     * Visual Analogy [[Paper](https://web.eecs.umich.edu/~honglak/nips2015-analogy.pdf)]
