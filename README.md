@@ -491,6 +491,10 @@ using a Multi-Scale Deep Network (NIPS 2014), David Eigen [[Paper]](https://pape
     * [ ] Big GAN (2018), A Brock [[Paper]](https://arxiv.org/abs/1809.11096)
     * [ ] MoCo GAN (2018), S Tulyakov [[Paper]](https://arxiv.org/abs/1707.04993)
 
+    ### training
+    * [ ] Batch Normalization (arXiv:1502.03167), S Ioffe [[Paper]](http://arxiv.org/pdf/1502.03167)
+    * [ ] Weight Standardization (arXiv1903), S Qiao [[Paper]](https://arxiv.org/pdf/1903.10520.pdf) [[Code]](https://github.com/joe-siyuan-qiao/WeightStandardization)
+    *
     ### Other Topics
     * Visual Analogy [[Paper](https://web.eecs.umich.edu/~honglak/nips2015-analogy.pdf)]
       * Scott Reed, Yi Zhang, Yuting Zhang, Honglak Lee, Deep Visual Analogy Making, NIPS, 2015
@@ -512,6 +516,7 @@ using a Multi-Scale Deep Network (NIPS 2014), David Eigen [[Paper]](https://pape
       * Florian Schroff, Dmitry Kalenichenko, James Philbin, FaceNet: A Unified Embedding for Face Recognition and Clustering, CVPR, 2015. [[Paper]](http://arxiv.org/abs/1503.03832)
     * Facial Landmark Detection
       * Yue Wu, Tal Hassner, KangGeon Kim, Gerard Medioni, Prem Natarajan, Facial Landmark Detection with Tweaked Convolutional Neural Networks, 2015. [[Paper]](http://arxiv.org/abs/1511.04031) [[Project]](http://www.openu.ac.il/home/hassner/projects/tcnn_landmarks/)
+
 
 
         ## Software
