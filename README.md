@@ -53,6 +53,7 @@ You can make your own badge [Here](https://shields.io/).
       - [Filtering](#filtering)
   - [ImageNet Classification](#imagenet-classification)
   - [Object Detection](#object-detection)
+  - [Video Object segmentation](#video-object-segmentation)
   - [Object Tracking](#object-tracking)
   - [Low-Level Vision](#low-level-vision)
     - [Super-Resolution](#super-resolution)
@@ -216,10 +217,9 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
  * Two-Stream Convolutional Networks for Action Recognition in Videos (arXiv:1406.2199), K Simonyan [[Paper]](https://arxiv.org/abs/1406.2199)
  * Learning Spatiotemporal Features with 3D Convolutional Networks (arXiv:1412.0767), D Tran [[Paper]](https://arxiv.org/abs/1412.0767)
 
-### Video Object segmentation
+### Video Object Segmentation
 ![190904-vos](/assets/blog/posts/2019/190904-vos.png)
 
-<!-- more -->
 
 #### 1.	Unsupervised VOS
 
