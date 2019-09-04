@@ -216,6 +216,195 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
  * Two-Stream Convolutional Networks for Action Recognition in Videos (arXiv:1406.2199), K Simonyan [[Paper]](https://arxiv.org/abs/1406.2199)
  * Learning Spatiotemporal Features with 3D Convolutional Networks (arXiv:1412.0767), D Tran [[Paper]](https://arxiv.org/abs/1412.0767)
 
+### Video Object segmentation
+![190904-vos](/assets/blog/posts/2019/190904-vos.png)
+
+<!-- more -->
+
+#### 1.	Unsupervised VOS
+
+![190904-unsupervised](/assets/blog/posts/2019/190904-unsupervised.png)
+
+ * (CVPR2017) Tokmakov et al., “Learning motion patterns in videos"  
+MP-Net. takes the optical flow field of two consecutive frames of a video sequence as input and produces per-pixel motion labels.
+
+ * (arXiv2017) Tokmakov et al.,“Learning video object segmentation with visual memory"  
+integrate one stream with appearance information and a visual memory module based on C-GRU.
+
+ * (CVPR2017) Jain et al.,“FusionSeg: Learning to combine motion and appearance for fully automatic segmentation of generic objects in videos."  
+FSEG. Design a two-stream fully CNN to combine appearance and motion information.
+
+ * (arXiv2017) Vijayanarasimahan et al.,“Sfm-net: Learning of structure and motion from video."  
+Geometry-aware CNN to predict depth, segmentation, camera and rigid object motions
+
+ * (ECCV2018) Song et al.,“Pyramid dilated deeper ConvLSTM for video salient object detection."  
+Pyramid dilated bidirectional ConvLSTM architecture, and CRF-based post-process Continued
+
+ * (CVPR2018) Li et al.,“Instance embedding transfer to unsupervised video object segmentation."  
+Transfer transferring the knowledge encapsulated in image-based instance embedding networks, and adapt the instance networks to video object segmentation. They propose a motion-based bilateral network, then a graph cut model is build to propagate the pixel-wise labels.
+
+ * (NIPS2018) Goel et al., “Unsupervised video object segmentation for deep reinforcement learning."  
+deep reinforcement learning methods is proposed to automatically detect moving objects with the relevant information for action selection.
+
+ * (ECCV2018) Song et al.,“Pyramid dilated deeper ConvLSTM for video salient object detection."  
+Pyramid dilated bidirectional ConvLSTM architecture, and CRF-based post-process Continued
+
+ * (CVPR2019) Wang et al., “Learning Unsupervised Video Object Segmentation through Visual Attention."  
+based on the CNN-convLSTM architecture, Visual attention-driven unsupervised VOS model.
+
+#### 2. Semi-supervised CNN
+
+![190904-semisupervised](/assets/blog/posts/2019/190904-semisupervised.png)
+
+#### 2-1. Motion-based methods
+(i)	train network to incorporate optical flow
+2-Branch Based Papers: (Color segmentation + Optical flow (FlowNet))
+
+ * (ICCV2017) Cheng et al., “Segflow: Joint learning for video object segmentation and optical flow"  
+ * (CVPR2018) Xiao et al., “MoNet: Deep Motion Exploitation for Video Object Segmentation."  
+ * (CVPR2018) Luiten  et al. “Premvos: Proposal-generation, refinement and merging for the davis challenge on video object segmentation."  
+ * (CVPR2017) Khoreva et al., “LucidTrack: Lucid Data Dreaming for Object Tracking."  
+ * (ECCV2018) Li et al., “VS-ReID: Video object segmentation with joint re-identification and attention-aware mask propagation."  
+
+ * (CVPR2017) Jampani et al., “Video propagation networks"  
+temporal bilateral network to propagate video frames in an adaptive manner by using optical flow as additional feature.
+
+ * (CVPR2018) Bao et al., “CNN in MRF: Video Object Segmentation via Inference in a CNN-Based Higher-Order Spatio-Temporal MRF"  
+inference in CNN-based spatio-temporal MRF.
+
+ * (NIPS2017) Hu et al., “Motion-Guided Cascaded Refinement Network for Video Object Segmentation."  
+employ active contour on optical flow to segment moving object.
+
+RNN Based Papers:
+ * (NIPS2017) Hu et al., “Maskrnn: Instance level video object segmentation."  
+build a RNN which fuses in each frame the output of a binary segmentation net and a localization net with optical flow
+
+ * (ECCV2018) Li and Loy, “Video object segmentation with joint re-identification and attention-aware mask propagation."  
+ combine temporal propagation and re-identification functionalities into a single framework.
+
+(ii) learn mask refinement of an object from current frame to the next one.
+
+ * (CVPR2017) Perazzi et al., “Learning video object segmentation from static images."  
+trains a refine the previous frame mask to create the current frame mask, and directly infer the results from optical flow
+
+ * (CVPR2018) Yang et al., “Efficient video object segmentation via network modulation"  
+ use a very coarse location prior with visual and spatial modulation.
+
+ * (CVPR2018) Oh et al., “Fast video object segmentation by reference-guided mask propagation."  
+ use both the reference frame with annotation and the current frame with previous mask estimation to a deep network.
+
+ * (CVPR2018) Han et al., “Reinforcement Cutting-Agent Learning for Video Object Segmentation."  
+ A reinforcement cutting-agent learning framework is to obtain the object box from the segmentation mask and propagates it to the next frame.
+
+ * (CVPR2019) Paul et al., “FEELVOS: Fast End-To-End Embedding Learning for Video Object Segmentation"  
+Some methods leverage temporal information on the bounding boxes by tracking objects across frames.
+
+ * (arXiv2017) Sharir et al., “Video object segmentation using tracked object proposals"  
+present a temporal tracking method to enforce coherent segmentation throughout the video.
+
+ * (arXiv2018) Cheng et al., “Fast and Accurate Online Video Object Segmentation via Tracking Parts"  
+Utilize a part-based tracking method on the bounding boxes, and construct a region-of-interest segmentation network to generate part masks.
+
+ * (WACV2017) Valipour et al., “Recurrent fully convolutional networks for video segmentation"  
+ introduce a combination of CNN and RNN for video object segmentation.
+
+ * (ECCV2018) Xu et al., “YouTube-VOS: Sequence-to-Sequence Video Object Segmentation"  
+ generate the initial states for our C-LSTM and use a FFNN to encode both the first frame and the segmentation mask.
+
+ * (CVPR2019) "Video Object Segmentation using Space-Time Memory Networks"  
+
+ * (CVPR2019) "RVOS- End-to-End Recurrent Network for Video Object Segmentation"  
+
+
+#### 2-2. Detection-Based Methods
+(i)	Without using temporal information, some methods learn a appearance model to perform a pixel-level detection and segmentation of the object at each frame.
+
+ * (CVPR2017) Caelles et al., “OSVOS: One-Shot Video Object Segmentation."** [post](https://eungbean.github.io/2019/07/03/OSVOS/)\\
+ offline and online training process by a FCN on static image for one-shot video object segmentation.
+
+ * (TPAMI2018) Maninis et al., “VOSWTI: Video Object Segmentation Without Temporal Information."  
+extend the model of the object with explicit semantic information
+
+ * (BMVC2017) Voigtlaender et al., “Online adaptation of convolutional neural networks for video object segmentation"  
+online adaptive video object segmentation
+
+ * (arXiv2018) Cheng et al., “Fast and Accurate Online Video Object Segmentation via Tracking Parts."  
+ propose a method to propagate a coarse segmentation mask spatially based on the pairwise similarities in each frame.
+
+(ii)	Other approaches formulate video object segmentation as a pixel-wise matching problem to estimate an object of interest with subsequence images until the end of a sequence.
+
+ * (CVPR2017) Yoon et al., “Pixel-level matching for video object segmentation using convolutional neural networks."  
+ a pixel-level matching net to distinguish the object from the background on the basis of the pixel-level similarity btw. two object units.
+
+ * (CVPR2018) Chen et al., “PML- Blazingly fast video object segmentation with pixel-wise metric learning."  
+ formulate a pixel-wise retrieval problem in an embedding space for video object segmentation
+
+ * (ECCV2017) Hu et al., “VideoMatch: Matching based Video Object Segmentation."  
+ match extracted features to a provided template without memorizing the appearance of the objects.
+
+ * (CVPR2019) Fast Online Object Tracking and Segmentation- A Unifying Approach"  
+
+ * (CVPR2019) BubbleNets- Learning to Select the Guidance Frame in Video Object Segmentation by Deep Sorting Frames"  
+
+#### 3. Interactive VOS
+
+![190904-interactive](/assets/blog/posts/2019/190904-interactive.png)
+
+ * (arXiv2017)  Benard et al., “Interactive video object segmentation in the wild"  
+use OSVOS, propose to refine the initial predictions with a fully connected CRF
+
+ * (arXiv2018) Caelles et al., “The 2018 davis challenge on video object segmentation."  
+use OSVOS, define a baseline method (i.e. Scribble- OSVOS)
+
+ * (CVPR2018)  Chen et al., “Blazingly fast video object segmentation with pixel-wise metric learning"  
+ Formulate video object segmentation as a pixel-wise retrieval problem. And their method allow for a fast user interaction
+
+ * (CVPR2016)  Xu et al., “ Deep interactive object selection."  
+ iFCN: guides a CNN from positive and negative points acquired from the ground-truth masks
+
+ * (CVPR2018) Mannis et al., “Deep extreme cut: From extreme points to object segmentation"  
+ build on iFCN to improve the results by using four points of an object as input to obtain precise object segmentation for images and videos
+
+ * (19CVPR) "Fast User-Guided Video Object Segmentation by Interaction-and-Propagation Networks"  
+
+#### 4. Weakly supervised VOS
+![190904-weekly](/assets/blog/posts/2019/190904-weekly.png)
+
+
+ * (ECCV2012) Hartmann et al., “Weakly supervised learning of object segmentations from web-scale video"  
+Training Segment Classifier: formulate pixel-level segmentations as multiple instance learning weakly supervised classifiers
+
+ * (CVPR2013) Tang et al., “Discriminative segment annotation in weakly labeled video."  
+Training Segment Classifier: Estimate the video in the positive sample with a large number of negative samples, and regard those segments with a distinct appearance as the foreground
+
+ * (CVPR2014) Liu et al., “Weakly supervised multiclass video segmentation."  
+Performing label transfer: Weakly supervised multiclass video segmentation
+
+ * (CVPR2015) Zhang et al., “Semantic object segmentation via detection in weakly labeled video."  
+ using object detection without the need of training process.
+
+ * (ECCV2016) Tsai et al., “Semantic co-segmentation in videos."  
+ does not require object proposal or video-level annotations. Link objects btw. different video and construct a graph for optimization
+
+ * (ACCV2016) Wang et al., “ Semi-supervised domain adaptation for weakly labeled semantic video object segmentation."  
+ combine the recognition and representation power of CNN with the intrinsic structure of unlabelled data.
+
+ * (arXiv2018) Khoreva et al., “ Video object segmentation with language referring expressions."  
+ Employ natural language expressions to identify the target object in video. Their method integrate textual descriptions of interest as foreground into convnet-based techniques.
+
+#### 5. Segment-based Tracking Methods
+
+ * (CVPR2019) Wang et al., “Fast Online Object Tracking and Segmentation: A Unifying Approach"  
+Siamese network to simultaneously estimate binary segmentation mask, bounding box, and the corresponding object/background scores.
+
+ * (ACMMCMC2018) Zhang et al., “Tracking- assisted Weakly Supervised Online Visual Object Segmentation in Unconstrained Videos."  
+build a two-branch network, i.e., appearance network and contour network.
+
+ * (ArXiv18) "Distractor-aware Siamese Networks for Visual Object Tracking"  
+
+ * (CVPR2019) "SiamRPN++- Evolution of Siamese Visual Tracking with Very Deep Networks (19SOTA)"  
+
+
 ### Object Tracking
  * Online Tracking by Learning Discriminative Saliency Map with Convolutional Neural Network (arXiv:1502.06796), Seunghoon Hong [[Paper]](http://arxiv.org/pdf/1502.06796)
  * DeepTrack: Learning Discriminative Feature Representations by Convolutional Neural Networks for Visual Tracking, (BMVC  2014), Hanxi Li [[Paper]](http://www.bmva.org/bmvc/2014/files/paper028.pdf)
