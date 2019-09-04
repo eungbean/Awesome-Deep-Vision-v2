@@ -218,12 +218,12 @@ https://pdfs.semanticscholar.org/.../c4000f5c71c22fb4a22fcf5dd0...) [[Project]](
  * Learning Spatiotemporal Features with 3D Convolutional Networks (arXiv:1412.0767), D Tran [[Paper]](https://arxiv.org/abs/1412.0767)
 
 ### Video Object Segmentation
-![190904-vos](/assets/blog/posts/2019/190904-vos.png)
+![190904-vos](https://eungbean.github.io/assets/blog/posts/2019/190904-vos.png)
 
 
 #### 1.	Unsupervised VOS
 
-![190904-unsupervised](/assets/blog/posts/2019/190904-unsupervised.png)
+![190904-unsupervised](https://eungbean.github.io/assets/blog/posts/2019/190904-unsupervised.png)
 
  * (CVPR2017) Tokmakov et al., “Learning motion patterns in videos"  
 MP-Net. takes the optical flow field of two consecutive frames of a video sequence as input and produces per-pixel motion labels.
@@ -254,7 +254,7 @@ based on the CNN-convLSTM architecture, Visual attention-driven unsupervised VOS
 
 #### 2. Semi-supervised CNN
 
-![190904-semisupervised](/assets/blog/posts/2019/190904-semisupervised.png)
+![190904-semisupervised](https://eungbean.github.io/assets/blog/posts/2019/190904-semisupervised.png)
 
 #### 2-1. Motion-based methods
 (i)	train network to incorporate optical flow
@@ -348,7 +348,7 @@ online adaptive video object segmentation
 
 #### 3. Interactive VOS
 
-![190904-interactive](/assets/blog/posts/2019/190904-interactive.png)
+![190904-interactive](https://eungbean.github.io/assets/blog/posts/2019/190904-interactive.png)
 
  * (arXiv2017)  Benard et al., “Interactive video object segmentation in the wild"  
 use OSVOS, propose to refine the initial predictions with a fully connected CRF
@@ -368,7 +368,7 @@ use OSVOS, define a baseline method (i.e. Scribble- OSVOS)
  * (19CVPR) "Fast User-Guided Video Object Segmentation by Interaction-and-Propagation Networks"  
 
 #### 4. Weakly supervised VOS
-![190904-weekly](/assets/blog/posts/2019/190904-weekly.png)
+![190904-weekly](https://eungbean.github.io/assets/blog/posts/2019/190904-weekly.png)
 
 
  * (ECCV2012) Hartmann et al., “Weakly supervised learning of object segmentations from web-scale video"  
